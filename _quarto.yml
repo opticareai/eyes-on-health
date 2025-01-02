@@ -3,11 +3,21 @@ project:
 
 book:
   title: "Eyes on Health"
-  author: "Norah Jones"
+  author: "Richard Sprague"
   date: "1/2/2025"
   chapters:
     - index.qmd
     - intro.qmd
+    - 1-Chapter-Intro.qmd
+    - 2-Chapter-Science.qmd
+    - 3-Chapter-Wellness.qmd
+    - 4-Chapter-Practical.qmd
+    - 5-Chapter-Guidebook.qmd
+    - 6-Chapter-Faster.qmd
+    - 7-Chapter-Future.qmd
+    - 8-Chapter-Beyond.qmd
+    - 9-Chapter-Skepticism.qmd
+    - 10-Chapter-Final.qmd
     - summary.qmd
     - references.qmd
 
