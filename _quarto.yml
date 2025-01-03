@@ -2,9 +2,11 @@ project:
   type: book
   output-dir: docs
 
+
 book:
   title: "Eyes on Health"
   author: "Richard Sprague"
+  site-url: /eyes-on-health
   downloads: [pdf, epub]
   date: "1/3/2025"
   cover-image: ./_resources/book/eyecare-cover-future-minimalist.jpg
