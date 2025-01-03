@@ -2,6 +2,11 @@
 
 This is a book, generated using the [Quarto](https://quarto.org/) publishing system.
 
+View the book here:
+
+[https://opticareai.github.io/eyes-on-health/](https://opticareai.github.io/eyes-on-health/)
+
+
 ## Install
 
 
@@ -37,8 +42,11 @@ and it will update the html version of the book whenever you save changes to the
 
 The book is automatically rendered and published whenever you `git push`
 
-View the book here:
 
-[https://opticareai.github.io/eyes-on-health/](https://opticareai.github.io/eyes-on-health/)
+
+
+## Tips
+
+The key organization file is `_quarto.yml`.  Modify that to change order or add chapters.
 
 

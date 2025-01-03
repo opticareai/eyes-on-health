@@ -6,6 +6,8 @@ project:
 book:
   title: "Eyes on Health"
   author: "Richard Sprague"
+  search: true
+  page-footer: "Copyright 2025 Opticare, Inc"
   site-url: /eyes-on-health
   downloads: [pdf, epub]
   date: "1/3/2025"
@@ -39,11 +41,11 @@ format:
     link-external-newwindow: true
   pdf:
     papersize: "Letter"
-    toc: true
     mainfont: "Georgia"
-    documentclass: scrreprt
-    title: "The Eye Revolution "
-    #include-in-header: psai_cover.tex 
+    toc: true
+    documentclass: book
+    geometry: paperwidth=6in,paperheight=9in
+    standalone: true
   epub:
     cover-image: ./_resources/book/eyecare-cover.jpg
   
