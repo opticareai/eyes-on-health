@@ -1,3 +1,13 @@
 # Summary
 
-In summary, this book has no content whatsoever.
+Opticare AI makes a low-cost, AI-powered portable fundus camera that generates comprehensive health reports in minutes, painlessly, without operator assistance.
+
+Find your RetinalAge™, plus a health score for your heart, metabolism, cognition and more in seconds with one look into our AI-powered camera.
+
+Healthcare professionals: come see how our affordable system can attract new patients.
+
+Opticare AI makes a low-cost, AI-powered portable fundus camera that generates comprehensive health reports in minutes, painlessly, without operator assistance. We use a deep learning algorithm trained on over 30M labeled retinal images to predict overall health.
+
+The Opticare AI-powered portable eye camera generates comprehensive health reports painlessly in minutes. Find your RetinalAge™, plus a health score for your heart, metabolism, cognition and more with a quick photo.
+
+

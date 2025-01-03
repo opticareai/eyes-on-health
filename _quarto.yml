@@ -5,9 +5,9 @@ book:
   title: "Eyes on Health"
   author: "Richard Sprague"
   date: "1/2/2025"
+  cover-image: ./_resources/book/eyecare-cover-future-minimalist.jpg
   chapters:
     - index.qmd
-    - intro.qmd
     - 1-Chapter-Intro.qmd
     - 2-Chapter-Science.qmd
     - 3-Chapter-Wellness.qmd
@@ -21,13 +21,24 @@ book:
     - summary.qmd
     - references.qmd
 
-bibliography: references.bib
+bibliography: ./_resources/book/Eyecare.bib 
+
+
 
 format:
   html:
-    theme: cosmo
+    theme: minty
+    css: ./_resources/book/css/normalize.css
+    standalone: true
+    toc: true
+    link-external-icon: true
+    link-external-newwindow: true
   pdf:
+    papersize: "Letter"
+    mainfont: "Georgia"
     documentclass: scrreprt
-
-
-
+    title: "The Eye Revolution "
+    #include-in-header: psai_cover.tex 
+  epub:
+    cover-image: ./_resources/book/eyecare-cover.jpg
+  

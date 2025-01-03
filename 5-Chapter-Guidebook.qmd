@@ -28,6 +28,8 @@ The Opticare AI camera combines sophisticated technology with user-friendly oper
 7. HDMI interface
 8. USB interface
 
+![The Opticare AI Fundus Camera](_resources/images/camera/A14A9482.jpg)
+
 ## Initial Setup
 
 ### Equipment Requirements
