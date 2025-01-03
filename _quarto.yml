@@ -8,10 +8,10 @@ book:
   author: "Richard Sprague"
   search: true
   page-footer: "Copyright 2025 Opticare, Inc"
-  site-url: /eyes-on-health
+  site-url: https://opticareai.github.io/eyes-on-health/
   downloads: [pdf, epub]
   date: "1/3/2025"
-  cover-image: ./_resources/book/eyecare-cover-future-minimalist.jpg
+  cover-image: _resources/book/eyecare-cover-future-minimalist.jpg
   chapters:
     - index.qmd
     - 1-Chapter-Intro.qmd
@@ -27,14 +27,14 @@ book:
     - summary.qmd
     - references.qmd
 
-bibliography: ./_resources/book/Eyecare.bib 
+bibliography: _resources/book/Eyecare.bib 
 
 
 
 format:
   html:
     theme: minty
-    css: ./_resources/book/css/normalize.css
+    css: _resources/book/css/normalize.css
     standalone: true
     toc: true
     link-external-icon: true
@@ -43,9 +43,10 @@ format:
     papersize: "Letter"
     mainfont: "Georgia"
     toc: true
-    documentclass: book
+    documentclass: scrbook
     geometry: paperwidth=6in,paperheight=9in
     standalone: true
+
   epub:
-    cover-image: ./_resources/book/eyecare-cover.jpg
+    cover-image: _resources/book/eyecare-cover.jpg
   
