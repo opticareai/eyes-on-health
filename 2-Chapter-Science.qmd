@@ -7,44 +7,40 @@ title: "The Scientific Foundation: What the Evidence Reveals"
 
 Imagine a window, not to the outside world, but into the very core of your health. This window, remarkably, is not a sophisticated scanning device or an invasive procedure, but a small patch of tissue lining the back of your eye—the retina. For centuries, the retina has been primarily known for its role in vision, translating light into the images we perceive. However, groundbreaking research is now revealing that the retina is more than just a visual organ. It's a microcosm of your overall health, an accessible and revealing site that offers a unique window into the inner workings of your body. Through the lens of high-resolution fundus photography, we're now able to unlock a wealth of information beyond just the health of your eyes.
 
-### The Retina: An Extension of Your Brain
 
 The retina isn't simply a standalone structure; it's an extension of your central nervous system, directly connected to your brain via the optic nerve. This direct link means that the health of the retina often reflects what's happening within the brain, as well as other organs. Like the brain, the retina has a complex layered structure of neural cells that respond to light, generating electrical signals that are then sent to the visual processing centers of the brain. Because of this direct connection to the brain, the retina is also subject to similar degenerative processes as occur in brain diseases, such as Alzheimer's. Therefore, studying the retina can often provide valuable insights into the health and functional status of the central nervous system.
 
-### The Eye's Unique Blood Supply
 
 The retina is also home to a complex network of blood vessels called the “retinal microvasculature.” These microvessels are extraordinarily delicate and uniquely visible within the body without invasive procedures. This is where the eye's unique structure provides such a powerful opportunity: the transparency of the ocular tissues allows the direct visualization of the retinal microvasculature through non-invasive high-resolution fundus photography. Unlike other areas of the body where similar structures may exist, the microvasculature of the retina is not obscured by skin or muscle; hence, we can examine the condition of these microvessels non-invasively.
 
 The microvasculature is not merely a passive system. These tiny vessels are highly active, constantly regulating blood flow to ensure that the retina receives the optimal amount of oxygen and nutrients for its metabolic needs. Because of this highly active and sensitive nature, the microvasculature is readily impacted by metabolic changes and systemic inflammation. Therefore, this network of blood vessels provides a direct, easily accessible view of how the cardiovascular system responds to stressors and diseases. Moreover, these microvessels provide a unique opportunity to monitor conditions related to the heart, blood and brain in real-time. In addition to oxygen and nutrients, the blood vessels also transport immune cells and other blood components that can contribute to or mediate inflammation. Consequently, observation of retinal blood vessels can also give valuable insights into the state of inflammation of the body.
 
-### A Shared Origin, A Shared Fate
 
 Further solidifying the idea of the retina as a microcosm, the retina shares embryonic origins, physiological characteristics, and anatomical structures with vital organs like the heart, brain, and kidneys. This shared developmental pathway means that these organs are often affected by similar diseases. For example, the endothelial cells that line the blood vessels in the heart, brain, kidneys and retina are all derived from similar progenitors in the embryo. Consequently, diseases that target endothelial cells, such as cardiovascular disease, can often be observed via changes in the retinal blood vessels. In fact, the study of retinal vascular changes has even helped researchers discover new potential disease mechanisms of systemic disorders.
 
 The significance of this shared origin is that the retina is often subjected to the same degenerative and pathological processes as many other tissues, making it a valuable proxy for what's happening throughout the body. Thus, the retina may not just reflect the state of one's eyes, but may also reflect the cumulative effects of overall health over time.
 
 ## The Advantage of Fundus Photography
+
 While these concepts may be complex, they are made accessible through the use of high-resolution fundus photography. This specialized imaging technique uses a camera with particular optics and light spectrum to capture detailed images of the retina, including the optic disc, blood vessels, and the macula, the area of sharp central vision. These photographs reveal subtle changes not easily visible during a traditional ophthalmoscopy exam (looking into the eyes using a handheld tool). These photos also generate a permanent record of the retina that can be analysed by human and AI.
 
 Through the lens of high-resolution fundus photography, AI can detect a host of changes in the retina that indicate the presence of an underlying condition. These changes may be related to:
 
-* Vessel Caliber: The diameter of blood vessels (arterioles and venules). Narrowing or widening can be indicators of high blood pressure or inflammation.
+* **Vessel Caliber**: The diameter of blood vessels (arterioles and venules). Narrowing or widening can be indicators of high blood pressure or inflammation.
 
-* Vessel Tortuosity: The degree of bending or twisting in blood vessels. Abnormally tortuous vessels can be linked to age or other disease processes.
+* **Vessel Tortuosity**: The degree of bending or twisting in blood vessels. Abnormally tortuous vessels can be linked to age or other disease processes.
 
-* Changes in Colour: Differences in the appearance of the retina related to the blood flow, oxygenation, or the presence of certain pigments.
+* **Changes in Colour**: Differences in the appearance of the retina related to the blood flow, oxygenation, or the presence of certain pigments.
 
-* Presence of Lesions: Such as hemorrhages, exudates, and drusen.
+* **Presence of Lesions**: Such as hemorrhages, exudates, and drusen.
 
-* Changes in Retinal Layer Thickness Variations in layer thickness have been shown to correlate with a variety of systemic diseases.
+* **Changes in Retinal Layer Thickness**: Variations in layer thickness have been shown to correlate with a variety of systemic diseases.
 
-### Subtle Signals, Profound Implications
 
 The power of fundus photography as a tool lies in its ability to capture these subtle signals, offering a glimpse into the intricate workings of the body. It reveals information not readily apparent through routine physical exams or blood tests. Often, these subtle retinal changes precede more pronounced systemic symptoms and can therefore act as a warning system, allowing for earlier detection and intervention.
 
 This also highlights the importance of looking beyond the overt signs of disease. Many individuals, especially those interested in wellness and preventive medicine, may not have obvious symptoms of any disease and are considered "healthy". However, even if a disease is yet to manifest clinically, subclinical or pre-symptomatic stages may be detectable via these subtle changes in retinal morphology.
 
-### Beyond the Eye: A Holistic View of Health
 
 By studying the retina through high-resolution fundus photography, we are no longer confined to assessing just eye-related health. Instead, this technology allows us to unlock the secrets held within this unique tissue. It enables us to:
 
@@ -60,38 +56,35 @@ This holistic view, enabled by retinal imaging, moves us away from a purely reac
 
 The retina, once considered solely as an organ of vision, is now recognized as a fascinating and valuable tissue that can be used to assess overall health. High-resolution fundus photography and the power of AI have given us the ability to delve into these secrets to find clues about disease states, and biological aging, opening up a new frontier in the way we understand, monitor and promote health. While research is ongoing, the basic principles and studies outlined in this section clearly demonstrate the amazing potential of this modality to revolutionize wellness and health assessment.
 
-## Deep Learning & Artificial Intelligence: The Key to Unlocking Retinal Insights
+## Deep Learning & Artificial Intelligence
 
 The human eye is remarkable in its ability to discern incredibly subtle patterns. However, even the most skilled human eye can’t compete with the power of a computer when it comes to quickly processing and analyzing vast amounts of complex information. This is where deep learning and artificial intelligence (AI) become invaluable tools in the realm of high-resolution fundus photography. To fully appreciate the power of fundus imaging for health assessment, understanding the role of AI is essential.
 
-### Moving Beyond Human Limitations with AI
 
 As we discussed in the previous section, the retina holds a wealth of information about our overall health. However, identifying and interpreting the subtle changes within a retinal image can be challenging. This is where traditional methods have their limitations; relying on human interpretation is not only time-consuming, but it can also be subject to inter- and intra-reader variability (that is, one person might interpret the same photo differently on different occasions, and two people might interpret the same photo differently from each other). With AI, specifically deep learning, these limitations can be overcome.
 
 Traditional computer programs have often relied on “hand-crafted” algorithms. These were built by human engineers, who would pre-program all the steps the program must take, and which features it should look for in the images. Deep learning provides a radical shift, because it is not programmed to follow pre-determined instructions. Instead, a deep learning system is trained on vast amounts of data. For example, instead of telling the AI program how to identify a blood vessel, a deep learning system is trained on hundreds of thousands of retinal images and their corresponding health outcomes, learning the subtle and complex relationships between image patterns and disease states. This process allows AI to detect patterns and features that a human eye might miss, making the diagnostic and predictive capabilities of fundus imaging even more powerful.
 
-### The Power of Deep Learning (DL)
 
 Deep learning is a specific type of machine learning (a subfield of AI) that employs artificial neural networks with multiple layers (hence the name “deep”). These layers enable the AI system to process information through hierarchical stages, similar to the complex networks in the brain. In effect, the AI algorithm “learns” what features are relevant for the task at hand, and “decides” on the relative weighting that should be applied to these features. In general, a deep learning model is trained on hundreds of thousands (or even millions) of retinal images with their corresponding ground-truth clinical diagnoses and other health information; thus, each layer in the neural network learns increasingly more abstract and relevant features, ultimately allowing it to perform a task as sophisticated as detecting glaucoma or diabetic retinopathy, or predicting an individual’s biological age.
 
 The advantage of this "deep" architecture is that it enables the AI model to automatically extract higher level and more nuanced characteristics from the images. For example, rather than being programmed to analyze just vessel caliber or vessel tortuosity, AI will automatically learn to assess these factors, and other image features, and then learns how to weigh these factors relative to the health outcomes. This also means that deep learning is capable of extracting new information, even about those underlying factors that may not even be discernable to the human eye, and which might have been missed using standard methods.
 
-## The Opticare AI Fundus Camera: Harnessing Deep Learning for You
-At Opticare, we’ve incorporated this revolutionary technology into our AI-powered fundus camera to provide you with state-of-the-art health assessments. The Opticare AI system is a deep learning model trained on a massive dataset of over 30 million labeled retinal images. This training enables the system to identify subtle patterns in your retinal images and compare these patterns to known characteristics of different health states.
+Opticare has incorporated this revolutionary technology into an AI-powered fundus camera to provide state-of-the-art health assessments. The Opticare AI system is a deep learning model trained on a massive dataset of over 30 million labeled retinal images. This training enables the system to identify subtle patterns in your retinal images and compare these patterns to known characteristics of different health states.
 
 When you take a fundus photo with your Opticare device, the image is immediately analysed by a trained AI system. This system isn't just looking at the obvious features of the retina; it is trained to assess everything the human eye can see, as well as the things the human eye can’t see. Some of these characteristics are as follows:
 
-* Vessel Caliber and Tortuosity: AI accurately measures the diameter and shape of the blood vessels, which can be indicators of cardiovascular risk, diabetes, and other systemic conditions.
+* **Vessel Caliber and Tortuosity**: AI accurately measures the diameter and shape of the blood vessels, which can be indicators of cardiovascular risk, diabetes, and other systemic conditions.
 
-* Layer Thickness: The deep learning model is capable of analysing the thickness of different retinal layers, and any changes of those thicknesses over time or compared to a healthy population. Subtle differences in layers are often correlated with various diseases or risks of developing them.
+* **Layer Thickness**: The deep learning model is capable of analysing the thickness of different retinal layers, and any changes of those thicknesses over time or compared to a healthy population. Subtle differences in layers are often correlated with various diseases or risks of developing them.
 
-* Presence of Lesions: AI can automatically identify various abnormal lesions such as drusen, hemorrhages and exudates, often signs of eye disease and also correlated with systemic disease.
+* **Presence of Lesions**: AI can automatically identify various abnormal lesions such as drusen, hemorrhages and exudates, often signs of eye disease and also correlated with systemic disease.
 
-* Color Changes: AI can detect subtle changes in the colour of the retina, which may indicate underlying conditions related to blood flow and metabolism.
+* **Color Changes**: AI can detect subtle changes in the colour of the retina, which may indicate underlying conditions related to blood flow and metabolism.
 
-* Spatial Organization of Features: Deep learning networks can discern patterns of how different features are spatially organized and how those patterns might be related to specific conditions, going beyond the assessment of single features alone.
+* **Spatial Organization of Features**: Deep learning networks can discern patterns of how different features are spatially organized and how those patterns might be related to specific conditions, going beyond the assessment of single features alone.
 
-* Combinations of Features: The AI models are trained to evaluate combinations of features, just like clinicians do, in order to arrive at a final diagnostic or risk evaluation. This approach takes advantage of the redundancy of the retinal features, and is more robust than relying on single features alone.
+* **Combinations of Features**: The AI models are trained to evaluate combinations of features, just like clinicians do, in order to arrive at a final diagnostic or risk evaluation. This approach takes advantage of the redundancy of the retinal features, and is more robust than relying on single features alone.
 
 
 
@@ -122,7 +115,6 @@ One such study published in the *Science Bulletin* (@ma_deep_2022), details how 
 
 Furthermore, when using the trained algorithm to classify the risk of ICVD, the model showed a very high area under the receiver operating characteristic (AUC) curve for detecting patients with a 10-year ICVD risk of ≥5%.  The AUC was 0.971 (95% CI: 0.967-0.975) in the internal validation dataset and 0.859 (95% CI: 0.822-0.895) in external validation. For the higher threshold of ICVD risk (≥ 7.5%), the AUC was 0.976 (95% CI: 0.973-0.980) for the internal validation dataset, and 0.876 (95% CI: 0.816-0.937) for external data. An AUC value close to 1 indicates perfect diagnostic accuracy. These AUC values demonstrate the high predictive power of this algorithm, which is consistent with other studies that have also seen a high predictive power of AI algorithms based on fundus images.   The results indicate that this algorithm may be a feasible and accurate alternative to established methods for assessing risk of ICVD, which may lead to wide scale implementation of retinal imaging in routine check-ups. The findings also show that AI algorithms are able to learn the association of microvascular changes with ICVD, including venular dilatation and arteriolar narrowing. AI can extract subtle relationships from images which, while difficult to appreciate with the naked eye, can be predictive of health outcomes.  These subtle changes are also consistent with other traditional risk factors, like blood pressure. 
 
-![see @]
 
 The study's authors noted a few limitations. First, the data was collected cross-sectionally, and their outcomes were predicted from an estimation tool that used traditional risk factors, rather than actual longitudinal ICVD event data. To confirm the prediction ability, a follow-up study of the BRAVE data is planned. Second, smoking status was absent in the dataset. Despite the limitations, the findings still provide compelling evidence of AI's potential in ICVD risk assessment using retinal images, given the simplicity of the approach and the high degree of predictive power.
 
