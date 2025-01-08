@@ -1,14 +1,14 @@
 # Preface {.unnumbered}
 
-Opticare AI makes a low-cost, AI-powered portable fundus camera that generates comprehensive health reports in minutes, painlessly, without operator assistance.
+The human eye has long captivated medical professionals as a unique window into overall health. Through the delicate structures of the retina, we can observe intricate networks of blood vessels, neural tissue, and metabolic activity – all without a single incision or invasive procedure. This remarkable access point has made retinal imaging, particularly fundus photography, an increasingly valuable tool in health assessment and preventive care.
 
-Find your RetinalAge™, plus a health score for your heart, metabolism, cognition and more in seconds with one look into our AI-powered camera.
+The convergence of high-resolution imaging technology and artificial intelligence has revolutionized our ability to gather and interpret retinal data. What was once the exclusive domain of ophthalmologists has now become accessible to a broader range of health professionals, opening new possibilities for early detection and monitoring of various systemic conditions.
 
-Healthcare professionals: come see how our affordable system can attract new patients.
+This book explores the science, application, and future potential of fundus photography in clinical practice, with a particular focus on the Opticare AI camera system. We'll examine the robust body of research linking retinal markers to various health conditions, from cardiovascular disease to cognitive decline. At the same time, we'll maintain a measured perspective on what current technology can and cannot tell us, helping practitioners set appropriate expectations and make informed decisions about incorporating this technology into their practice.
 
-Opticare AI makes a low-cost, AI-powered portable fundus camera that generates comprehensive health reports in minutes, painlessly, without operator assistance. We use a deep learning algorithm trained on over 30M labeled retinal images to predict overall health.
+For wellness professionals – whether you're a naturopath, chiropractor, nutritionist, or medical doctor – this book offers insights into how fundus photography can complement your existing practice. We'll explore how this technology can enhance patient engagement, provide valuable health insights, and integrate with other diagnostic tools for a more comprehensive approach to wellness.
 
-The Opticare AI-powered portable eye camera generates comprehensive health reports painlessly in minutes. Find your RetinalAge™, plus a health score for your heart, metabolism, cognition and more with a quick photo.
+With scientific evidence, practical guidance, and forward-looking perspectives on the future of health diagnostics, our  goal is to equip you with the knowledge needed to make informed decisions about incorporating fundus photography into your practice, while inspiring you to think broadly about the future of preventive health assessment. No matter your level of knowledge about retinal photography you'll come away with a deeper appreciation for the eye's role as a window into human health and the transformative potential of modern imaging technology.
 
 
 To learn more about Opticare, see  <https://opticare.ai>.
