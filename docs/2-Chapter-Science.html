@@ -378,11 +378,11 @@ Understanding the Process
 <section id="retinal-imaging-for-prediction-of-age-and-mortality-risk" class="level2" data-number="2.8">
 <h2 data-number="2.8" class="anchored" data-anchor-id="retinal-imaging-for-prediction-of-age-and-mortality-risk"><span class="header-section-number">2.8</span> Retinal Imaging for Prediction of Age and Mortality Risk</h2>
 <p>While conventional wisdom might associate the retina solely with visual function, research is increasingly demonstrating that the eye also offers a window into the ageing process and a way to quantify mortality risk. The retina, composed of neural tissue and blood vessels, reflects both local changes that are influenced by age as well as the wider systemic effects of aging on the human body. Researchers have found that subtle age-related changes to the retina can be identified through fundus photography and quantified using AI, creating a novel biomarker of biological age and its connection with mortality risk.</p>
-<p>A team of researchers in Singapore developed an algorithm that can estimate a patient’s biological age, termed RetiAGE, based on deep learning from fundus images (<span class="citation" data-cites="nusinovici_retinal_2022">Nusinovici et al. (<a href="references.html#ref-nusinovici_retinal_2022" role="doc-biblioref">2022</a>)</span>). The algorithm was initially trained on fundus photographs from 40,480 Korean adults and then evaluated using 56,301 participants of the UK Biobank, which demonstrated its generalizability across diverse populations and ethnicities. They found that, using a cut off of being equal or greater than 65 years of age, the algorithm showed an AUC of 0.76, with an AUPRC of 0.399. More importantly, they then stratified participants by their RetiAGE and followed them for over 10 years and found that individuals in the fourth quartile of RetiAGE had a 67% increased risk of all-cause mortality, 142% increased risk of CVD-related mortality, and 60% increased risk of cancer related mortality compared to those in the lowest quartile. Critically, these associations were independent of chronological age and of a number of established ageing biomarkers including albumin, creatinine, glucose and C-reactive protein. This data suggests the algorithm is capturing some of the biological changes associated with aging that conventional biomarkers do not identify. In this study, the researchers also showed that the addition of RetiAGE increased the ability to predict mortality risk beyond the conventional risk factors.</p>
+<p>A team of researchers in Singapore developed an algorithm that can estimate a patient’s biological age, termed RetiAGE, based on deep learning from fundus images (<span class="citation" data-cites="nusinovici_retinal_2022">Nusinovici et al. (<a href="references.html#ref-nusinovici_retinal_2022" role="doc-biblioref">2022a</a>)</span>). The algorithm was initially trained on fundus photographs from 40,480 Korean adults and then evaluated using 56,301 participants of the UK Biobank, which demonstrated its generalizability across diverse populations and ethnicities. They found that, using a cut off of being equal or greater than 65 years of age, the algorithm showed an AUC of 0.76, with an AUPRC of 0.399. More importantly, they then stratified participants by their RetiAGE and followed them for over 10 years and found that individuals in the fourth quartile of RetiAGE had a 67% increased risk of all-cause mortality, 142% increased risk of CVD-related mortality, and 60% increased risk of cancer related mortality compared to those in the lowest quartile. Critically, these associations were independent of chronological age and of a number of established ageing biomarkers including albumin, creatinine, glucose and C-reactive protein. This data suggests the algorithm is capturing some of the biological changes associated with aging that conventional biomarkers do not identify. In this study, the researchers also showed that the addition of RetiAGE increased the ability to predict mortality risk beyond the conventional risk factors.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="_resources/images/RetiAgeMortality-Nusinovici.jpg" class="img-fluid figure-img"></p>
-<figcaption>Retinal Age corresponds well with many other mortality metrics. Source: <span class="citation" data-cites="nusinovici_retinal_2022">Nusinovici et al. (<a href="references.html#ref-nusinovici_retinal_2022" role="doc-biblioref">2022</a>)</span></figcaption>
+<figcaption>Retinal Age corresponds well with many other mortality metrics. Source: <span class="citation" data-cites="nusinovici_retinal_2022">Nusinovici et al. (<a href="references.html#ref-nusinovici_retinal_2022" role="doc-biblioref">2022a</a>)</span></figcaption>
 </figure>
 </div>
 <p>Similarly, another study based on a 10 year longitudinal analysis of fundus images from the UK Biobank found that the retinal age gap (difference between predicted and chronological age) was associated with a 2% increase in all-cause mortality risk and 3% increased risk of non-CVD/non-cancer mortality (<span class="citation" data-cites="zhu_retinal_2023">Zhu et al. (<a href="references.html#ref-zhu_retinal_2023" role="doc-biblioref">2023</a>)</span>). While they did not find a significant association between retinal age gap and CVD or cancer-related mortalities, their findings underscore a role of retinal changes in broader ageing processes. Both the above studies have strong statistical significance with large populations and rigorous methodology, thus supporting the hypothesis that retinal fundus imaging could offer a non-invasive means of determining both biological age and risk of mortality.</p>
@@ -397,23 +397,47 @@ Understanding the Process
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-chua_ambient_2020" class="csl-entry" role="listitem">
+Chua, Sharon Y. L., Anthony P. Khawaja, Andrew D. Dick, James Morgan, Baljean Dhillon, Andrew J. Lotery, Nicholas G. Strouthidis, et al. 2020. <span>“Ambient <span>Air</span> <span>Pollution</span> <span>Associations</span> with <span>Retinal</span> <span>Morphology</span> in the <span>UK</span> <span>Biobank</span>.”</span> <em>Investigative Opthalmology &amp; Visual Science</em> 61 (5): 32. <a href="https://doi.org/10.1167/iovs.61.5.32">https://doi.org/10.1167/iovs.61.5.32</a>.
+</div>
+<div id="ref-hua_development_2022" class="csl-entry" role="listitem">
+Hua, Rong, Jianhao Xiong, Gail Li, Yidan Zhu, Zongyuan Ge, Yanjun Ma, Meng Fu, et al. 2022. <span>“Development and Validation of a Deep Learning Algorithm Based on Fundus Photographs for Estimating the <span>CAIDE</span> Dementia Risk Score.”</span> <em>Age and Ageing</em> 51 (12): afac282. <a href="https://doi.org/10.1093/ageing/afac282">https://doi.org/10.1093/ageing/afac282</a>.
+</div>
 <div id="ref-kivipelto_risk_2006" class="csl-entry" role="listitem">
 Kivipelto, Miia, Tiia Ngandu, Tiina Laatikainen, Bengt Winblad, Hilkka Soininen, and Jaakko Tuomilehto. 2006. <span>“Risk Score for the Prediction of Dementia Risk in 20 Years Among Middle Aged People: A Longitudinal, Population-Based Study.”</span> <em>The Lancet Neurology</em> 5 (9): 735–41. <a href="https://doi.org/10.1016/S1474-4422(06)70537-3">https://doi.org/10.1016/S1474-4422(06)70537-3</a>.
 </div>
 <div id="ref-lin_application_2021" class="csl-entry" role="listitem">
-Lin, Duoru, Jianhao Xiong, Congxin Liu, Lanqin Zhao, Zhongwen Li, Shanshan Yu, Xiaohang Wu, et al. 2021. <span>“Application of <span>Comprehensive</span> <span>Artificial</span> Intelligence <span>Retinal</span> <span>Expert</span> (<span>CARE</span>) System: A National Real-World Evidence Study.”</span> <em>The Lancet Digital Health</em> 3 (8): e486–95. <a href="https://doi.org/10.1016/S2589-7500(21)00086-8">https://doi.org/10.1016/S2589-7500(21)00086-8</a>.
+Lin, Duoru, Jianhao Xiong, Congxin Liu, Lanqin Zhao, Zhongwen Li, Shanshan Yu, Xiaohang Wu, et al. 2021a. <span>“Application of <span>Comprehensive</span> <span>Artificial</span> Intelligence <span>Retinal</span> <span>Expert</span> (<span>CARE</span>) System: A National Real-World Evidence Study.”</span> <em>The Lancet Digital Health</em> 3 (8): e486–95. <a href="https://doi.org/10.1016/S2589-7500(21)00086-8">https://doi.org/10.1016/S2589-7500(21)00086-8</a>.
+</div>
+<div id="ref-lin_application_2021-1" class="csl-entry" role="listitem">
+———, et al. 2021b. <span>“Application of <span>Comprehensive</span> <span>Artificial</span> Intelligence <span>Retinal</span> <span>Expert</span> (<span>CARE</span>) System: A National Real-World Evidence Study.”</span> <em>The Lancet Digital Health</em> 3 (8): e486–95. <a href="https://doi.org/10.1016/S2589-7500(21)00086-8">https://doi.org/10.1016/S2589-7500(21)00086-8</a>.
 </div>
 <div id="ref-ma_deep_2022" class="csl-entry" role="listitem">
 Ma, Yanjun, Jianhao Xiong, Yidan Zhu, Zongyuan Ge, Rong Hua, Meng Fu, Chenglong Li, et al. 2022. <span>“Deep Learning Algorithm Using Fundus Photographs for 10-Year Risk Assessment of Ischemic Cardiovascular Diseases in <span>China</span>.”</span> <em>Science Bulletin</em> 67 (1): 17–20. <a href="https://doi.org/10.1016/j.scib.2021.08.016">https://doi.org/10.1016/j.scib.2021.08.016</a>.
 </div>
+<div id="ref-milea_artificial_2020" class="csl-entry" role="listitem">
+Milea, Dan, Raymond P. Najjar, Zhubo Jiang, Daniel Ting, Caroline Vasseneix, Xinxing Xu, Masoud Aghsaei Fard, et al. 2020. <span>“Artificial <span>Intelligence</span> to <span>Detect</span> <span>Papilledema</span> from <span>Ocular</span> <span>Fundus</span> <span>Photographs</span>.”</span> <em>New England Journal of Medicine</em> 382 (18): 1687–95. <a href="https://doi.org/10.1056/NEJMoa1917130">https://doi.org/10.1056/NEJMoa1917130</a>.
+</div>
 <div id="ref-mitani_detection_2019" class="csl-entry" role="listitem">
 Mitani, Akinori, Abigail Huang, Subhashini Venugopalan, Greg S. Corrado, Lily Peng, Dale R. Webster, Naama Hammel, Yun Liu, and Avinash V. Varadarajan. 2019. <span>“Detection of Anaemia from Retinal Fundus Images via Deeplearning.”</span> <em>Nature Biomedical Engineering</em> 4 (1): 18–27. <a href="https://doi.org/10.1038/s41551-019-0487-z">https://doi.org/10.1038/s41551-019-0487-z</a>.
 </div>
+<div id="ref-nusinovici_application_2024" class="csl-entry" role="listitem">
+Nusinovici, Simon, Tyler Hyungtaek Rim, Hengtong Li, Marco Yu, Mihir Deshmukh, Ten Cheer Quek, Geunyoung Lee, et al. 2024. <span>“Application of a Deep-Learning Marker for Morbidity and Mortality Prediction Derived from Retinal Photographs: A Cohort Development and Validation Study.”</span> <em>The Lancet Healthy Longevity</em>, September, 100593. <a href="https://doi.org/10.1016/S2666-7568(24)00089-8">https://doi.org/10.1016/S2666-7568(24)00089-8</a>.
+</div>
 <div id="ref-nusinovici_retinal_2022" class="csl-entry" role="listitem">
-Nusinovici, Simon, Tyler Hyungtaek Rim, Marco Yu, Geunyoung Lee, Yih-Chung Tham, Ning Cheung, Crystal Chun Yuen Chong, et al. 2022. <span>“Retinal Photograph-Based Deep Learning Predicts Biological Age, and Stratifies Morbidity and Mortality Risk.”</span> <em>Age and Ageing</em> 51 (4): afac065. <a href="https://doi.org/10.1093/ageing/afac065">https://doi.org/10.1093/ageing/afac065</a>.
+Nusinovici, Simon, Tyler Hyungtaek Rim, Marco Yu, Geunyoung Lee, Yih-Chung Tham, Ning Cheung, Crystal Chun Yuen Chong, et al. 2022a. <span>“Retinal Photograph-Based Deep Learning Predicts Biological Age, and Stratifies Morbidity and Mortality Risk.”</span> <em>Age and Ageing</em> 51 (4): afac065. <a href="https://doi.org/10.1093/ageing/afac065">https://doi.org/10.1093/ageing/afac065</a>.
+</div>
+<div id="ref-nusinovici_retinal_2022-1" class="csl-entry" role="listitem">
+———, et al. 2022b. <span>“Retinal Photograph-Based Deep Learning Predicts Biological Age, and Stratifies Morbidity and Mortality Risk.”</span> <em>Age and Ageing</em> 51 (4): afac065. <a href="https://doi.org/10.1093/ageing/afac065">https://doi.org/10.1093/ageing/afac065</a>.
 </div>
 <div id="ref-wong_retinal_2002" class="csl-entry" role="listitem">
 Wong, Tien Yin. 2002. <span>“Retinal <span>Arteriolar</span> <span>Narrowing</span> and <span>Risk</span> of <span>Diabetes</span> <span>Mellitus</span> in <span>Middle</span>-Aged <span>Persons</span>.”</span> <em>JAMA</em> 287 (19): 2528. <a href="https://doi.org/10.1001/jama.287.19.2528">https://doi.org/10.1001/jama.287.19.2528</a>.
+</div>
+<div id="ref-xia_generalizing_2024" class="csl-entry" role="listitem">
+Xia, Peng, Ming Hu, Feilong Tang, Wenxue Li, Wenhao Zheng, Lie Ju, Peibo Duan, Huaxiu Yao, and Zongyuan Ge. 2024. <span>“Generalizing to <span>Unseen</span> <span>Domains</span> in <span>Diabetic</span> <span>Retinopathy</span> with <span>Disentangled</span> <span>Representations</span>.”</span> arXiv. <a href="http://arxiv.org/abs/2406.06384">http://arxiv.org/abs/2406.06384</a>.
+</div>
+<div id="ref-zhao_foundation_2024" class="csl-entry" role="listitem">
+Zhao, Theodore, Yu Gu, Jianwei Yang, Naoto Usuyama, Ho Hin Lee, Sid Kiblawi, Tristan Naumann, et al. 2024. <span>“A Foundation Model for Joint Segmentation, Detection and Recognition of Biomedical Objects Across Nine Modalities.”</span> <em>Nature Methods</em>, November. <a href="https://doi.org/10.1038/s41592-024-02499-w">https://doi.org/10.1038/s41592-024-02499-w</a>.
 </div>
 <div id="ref-zhu_retinal_2023" class="csl-entry" role="listitem">
 Zhu, Zhuoting, Danli Shi, Peng Guankai, Zachary Tan, Xianwen Shang, Wenyi Hu, Huan Liao, et al. 2023. <span>“Retinal Age Gap as a Predictive Biomarker for Mortality Risk.”</span> <em>British Journal of Ophthalmology</em> 107 (4): 547–54. <a href="https://doi.org/10.1136/bjophthalmol-2021-319807">https://doi.org/10.1136/bjophthalmol-2021-319807</a>.
@@ -427,7 +451,7 @@ Zhu, Zhuoting, Danli Shi, Peng Guankai, Zachary Tan, Xianwen Shang, Wenyi Hu, Hu
 <li id="fn2"><p><span class="citation" data-cites="ma_deep_2022">Ma et al. (<a href="references.html#ref-ma_deep_2022" role="doc-biblioref">2022</a>)</span><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p><span class="citation" data-cites="kivipelto_risk_2006">Kivipelto et al. (<a href="references.html#ref-kivipelto_risk_2006" role="doc-biblioref">2006</a>)</span><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p><span class="citation" data-cites="mitani_detection_2019">Mitani et al. (<a href="references.html#ref-mitani_detection_2019" role="doc-biblioref">2019</a>)</span><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p><span class="citation" data-cites="lin_application_2021">Lin et al. (<a href="references.html#ref-lin_application_2021" role="doc-biblioref">2021</a>)</span><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><span class="citation" data-cites="lin_application_2021">Lin et al. (<a href="references.html#ref-lin_application_2021" role="doc-biblioref">2021a</a>)</span><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
@@ -541,8 +565,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
           if (link.getAttribute("rel") === null) {
             link.setAttribute("rel", "noopener");
           }
-          // default icon
-          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
