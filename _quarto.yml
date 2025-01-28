@@ -10,7 +10,7 @@ book:
   page-footer: "Copyright 2025 Opticare, Inc"
   site-url: https://opticareai.github.io/eyes-on-health/
   downloads: [pdf, epub]
-  date: "1/25/2025"
+  date: "1/27/2025"
   cover-image: _resources/book/Eyes-Kindle_Book_Cover_6x9-Medium.jpeg
   chapters:
     - index.qmd
