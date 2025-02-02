@@ -2,6 +2,8 @@
 
 This is a book, generated using the [Quarto](https://quarto.org/) publishing system.
 
+Word count = 33546
+
 View the book here:
 
 [https://opticareai.github.io/eyes-on-health/](https://opticareai.github.io/eyes-on-health/)

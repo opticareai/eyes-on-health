@@ -31,8 +31,15 @@ Reports are designed for clarity and actionability, with each health dimension p
 
 ## Detailed Analysis of Health Metrics
 
+::: {.callout-caution title = "Caution: Not Intended for Diagnosis"}
+
+We must repeat over and over: the Opticare AI system is not currently authorized by the FDA to diagnose or treat any disease. The following discussions note the types of diagnosis that are theoretically possible using advanced AI-driven fundus photography, **but the current Opticare AI system does not provide the diagnosis**.  It is critical that any health-related conclusions be made by a qualified professional.
+
+:::
+
 ### 1. Macular Vision Health
-Building on the research discussed in Chapter 2, the macular vision health score evaluates retinal structures critical for central vision. This includes:
+
+Building on the research discussed in Chapter 2, the macular vision health score evaluates retinal structures critical for central vision. Skilled professionals can use the fundus images to evaluate:
 
 - Assessment of macular integrity and potential age-related changes
 - Analysis of retinal nerve fiber layer thickness
@@ -60,7 +67,7 @@ The circulatory health metric analyzes retinal vessel patterns, providing insigh
 - Vessel tortuosity evaluation
 - Microvascular pattern assessment
 
-Drawing from research presented in Chapter 2, particularly the work of Wong (2002) and subsequent studies, this metric reflects:
+Drawing from research presented in Chapter 2, particularly the work of @ma_deep_2022 and subsequent studies, fundus images can reflect:
 
 - Systemic vascular health status
 - Potential cardiovascular risk factors
@@ -80,7 +87,7 @@ The cognitive health assessment leverages emerging research linking retinal char
 - Vascular pattern evaluation
 - Structural integrity assessment
 
-Based on research discussed in Chapter 2, particularly the work on CAIDE dementia risk scoring, this metric considers:
+Based on research discussed in Chapter 2, particularly the work on CAIDE dementia risk scoring^[@hua_development_2022], this metric considers:
 
 - Neural tissue health indicators
 - Vascular patterns associated with cognitive function
@@ -108,7 +115,7 @@ Research support comes from:
 
 ### 5. Cardiovascular Health
 
-Building on research presented in Chapter 2, particularly the Science Bulletin study on ICVD risk, this metric evaluates:
+Building on research presented in Chapter 2, particularly the Science Bulletin study on ICVD risk^[@ma_deep_2022], this metric evaluates:
 
 - Arterial characteristics
 - Venous patterns

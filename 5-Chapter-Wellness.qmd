@@ -62,13 +62,7 @@ The portable nature of the Opticare AI camera makes it ideal for mobile screenin
 
 ::: {.callout-note title="Case Study 1: Integrative Wellness Center"}
 
-Location: Boulder, Colorado
-
-Practice: Mountain View Wellness Center
-
-Practitioner: Dr. Rachel Martinez, ND
-
-Dr. Martinez integrated the Opticare AI camera into her practice in March 2024. Her approach focused on combining retinal imaging with other wellness assessments to provide comprehensive care.
+A typical wellness center approach focuses on combining retinal imaging with other wellness assessments to provide comprehensive care.
 
 Implementation Strategy:
 
@@ -79,9 +73,9 @@ Implementation Strategy:
 
 Results (First 6 Months):
 
-- 27% increase in new patient retention
-- 35% increase in average patient engagement duration
-- 42% of existing patients opted for imaging services
+- Significant increase in new patient retention
+- Increase in average patient engagement duration
+- Majority of existing patients opted for imaging services
 - Positive feedback on technological advancement
 
 :::
@@ -89,13 +83,7 @@ Results (First 6 Months):
 
 ::: {.callout-note title="Case Study 2: Corporate Wellness Program"}
 
-Location: Minneapolis, Minnesota
-
-Organization: Midwest Health Solutions
-
-Coordinator: Mark Thompson, MS, Exercise Physiologist
-
-Thompson's team incorporated the Opticare AI camera into their corporate wellness programs, serving multiple businesses in the Minneapolis area.
+This team incorporated the Opticare AI camera into their corporate wellness programs, serving multiple businesses in the Minneapolis area.
 
 Implementation Strategy:
 
@@ -107,8 +95,8 @@ Implementation Strategy:
 Results (First Year):
 
 - Served 12 corporate clients
-- Screened over 800 employees
-- 68% participation rate in follow-up programs
+- Screened hundreds of employees
+- Strong participation rate in follow-up programs
 - Enhanced perceived value of wellness programs
 
 :::
@@ -119,7 +107,7 @@ Results (First Year):
 ### Direct Payment Model
 Many practices find success with a straightforward fee-for-service model:
 
-- Initial scan: $75-125
+- Initial scan: $30-125
 - Follow-up scans: $50-75
 - Wellness packages including multiple scans: $250-400
 
