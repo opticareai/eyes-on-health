@@ -36,6 +36,7 @@ Common side effects include light sensitivity, blurred near vision, and difficul
 Particular care is required for patients with certain medical conditions or taking specific medications. For example, patients with narrow anterior chamber angles are at heightened risk for angle-closure glaucoma. Those taking certain psychiatric medications, particularly tricyclic antidepressants or MAO inhibitors, can experience dangerous drug interactions.
 
 The administration of mydriatic drops therefore requires:
+
 - Careful patient screening for contraindications
 - Proper medication storage and handling
 - Emergency protocols for adverse reactions

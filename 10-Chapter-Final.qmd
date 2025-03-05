@@ -59,15 +59,6 @@ Staff engagement proves crucial for successful integration. Including team membe
 
 Developing clear protocols for incorporating retinal imaging into client assessments helps standardize the process and ensure consistent delivery of services. These protocols should address scheduling, client preparation, image capture procedures, and results review processes.
 
-## Stories from the Cutting Edge
-
-The experience of early adopters provides valuable insights into successful implementation strategies. Consider the journey of Vital Harmony Center in Austin, Texas, where Dr. Naomi Li integrated the Opticare AI camera into her multi-disciplinary wellness practice in early 2024.
-
-Initially cautious about adding new technology, Dr. Li recognized the potential for enhancing her practice's preventive care capabilities. She developed a systematic implementation plan that included comprehensive staff training and clear communication with existing clients about the new service offering.
-
-The results exceeded expectations. Within six months, patient referrals increased significantly, driven by positive word-of-mouth about the innovative approach to wellness assessment. The practice saw improved client engagement and enhanced ability to develop targeted wellness programs based on the comprehensive insights provided by the Opticare system.
-
-Another notable example comes from Mountain View Wellness in Denver, Colorado, where Dr. James Chen incorporated the Opticare AI camera into his corporate wellness programs. By offering retinal imaging as part of executive health assessments, Dr. Chen's practice attracted several major corporate clients and established a reputation for cutting-edge wellness services.
 
 ## A Vision for Collaboration
 
