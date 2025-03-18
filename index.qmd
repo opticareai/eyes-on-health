@@ -13,6 +13,8 @@ With scientific evidence, practical guidance, and forward-looking perspectives o
 
 To learn more about Opticare, see  <https://opticare.ai>.
 
+\pagebreak
+
 ::: {.callout-caution}
 ## Disclaimer
 
