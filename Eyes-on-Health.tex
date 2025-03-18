@@ -268,7 +268,7 @@ To learn more about Opticare, see \url{https://opticare.ai}.
 
 \pagebreak
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, colframe=quarto-callout-caution-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-caution-color!10!white, toptitle=1mm, coltitle=black, colback=white, opacityback=0, titlerule=0mm, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Disclaimer}, breakable, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, left=2mm, rightrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-caution-color!10!white, titlerule=0mm, toptitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Disclaimer}, arc=.35mm, leftrule=.75mm, opacityback=0, coltitle=black, colframe=quarto-callout-caution-color-frame, breakable]
 
 The information provided in this book is intended for educational and
 informational purposes only. It is not intended as medical advice,
@@ -1156,7 +1156,7 @@ can't see. Some of these characteristics are as follows:
   robust than relying on single features alone.
 \end{itemize}
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, coltitle=black, colback=white, opacityback=0, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Understanding the Process}, breakable, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, left=2mm, rightrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, toptitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Understanding the Process}, arc=.35mm, leftrule=.75mm, opacityback=0, coltitle=black, colframe=quarto-callout-note-color-frame, breakable]
 
 When using the Opticare camera, you should keep the following in mind:
 
@@ -1858,7 +1858,7 @@ and blurred vision afterward, and cannot drive themselves home. These
 side effects make dilation impractical for routine wellness screenings
 and would severely limit patient acceptance.
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, coltitle=black, colback=white, opacityback=0, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Why is Non-Mydriatic Operation Critical?}, breakable, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, left=2mm, rightrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, toptitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Why is Non-Mydriatic Operation Critical?}, arc=.35mm, leftrule=.75mm, opacityback=0, coltitle=black, colframe=quarto-callout-note-color-frame, breakable]
 
 Pupil dilation (mydriasis) traditionally relies on pharmaceutical agents
 like tropicamide, phenylephrine, or cyclopentolate. These medications
@@ -2068,9 +2068,6 @@ usability while maintaining professional-grade imaging capabilities.
 \chapter{Opticare AI -- Marrying Innovation with
 Wellness}\label{opticare-ai-marrying-innovation-with-wellness}
 
-\section{Introduction: Technology Meets
-Wellness}\label{introduction-technology-meets-wellness}
-
 In today's fast-evolving health and wellness landscape, technology is
 transforming the way professionals assess, monitor, and improve patient
 health. At the forefront of this transformation is the Opticare AI
@@ -2096,13 +2093,11 @@ dimensions of health. This chapter explores each health metric in
 detail, explaining both the scientific foundation and practical
 implications for wellness practitioners.
 
-\subsection{Overview}\label{overview}
-
 Each Opticare AI report stems from sophisticated analysis of
 high-resolution fundus images, leveraging deep learning algorithms
-trained on over 30 million labeled retinal images. The reports are
-generated within minutes of imaging and provide insights into five key
-health dimensions:
+trained on millions of labeled retinal images. The reports are generated
+within minutes of imaging and provide insights into five key health
+dimensions:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -2119,6 +2114,12 @@ health dimensions:
   Cardiovascular Health
 \end{enumerate}
 
+The analysis begins immediately after image capture, with AI algorithms
+examining countless retinal features including vessel patterns, layer
+structures, and tissue characteristics. This multi-dimensional analysis
+allows for a comprehensive health assessment that extends far beyond
+traditional vision screening.
+
 \begin{figure}[H]
 
 {\centering \pandocbounded{\includegraphics[keepaspectratio]{_resources/images/reports/OpticareSampleReport.jpg}}
@@ -2129,18 +2130,78 @@ health dimensions:
 
 \end{figure}%
 
-\subsection{Report Structure and
-Presentation}\label{report-structure-and-presentation}
+\textbf{Report Structure and Presentation}
 
 Reports are designed for clarity and actionability, with each health
 dimension presented separately. Practitioners can choose to make certain
 reports optional, viewable only when unlocked, allowing for flexible
-service models and staged implementation.
+service models and staged implementation. This feature is particularly
+valuable for mass screening events, where practitioners can offer one or
+two basic health reports at no cost as an incentive, while reserving
+comprehensive results for clients who book appointments or pay a small
+fee to unlock additional insights.
 
-\section{Detailed Analysis of Health
-Metrics}\label{detailed-analysis-of-health-metrics}
+The visual design of Opticare reports prioritizes intuitive
+understanding through a straightforward risk categorization system.
+Health metrics are divided into four broad categories, each with
+distinct color coding:
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, colframe=quarto-callout-caution-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-caution-color!10!white, toptitle=1mm, coltitle=black, colback=white, opacityback=0, titlerule=0mm, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Caution: Not Intended for Diagnosis}, breakable, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, toprule=.15mm]
+\begin{itemize}
+\tightlist
+\item
+  Low risk (green)
+\item
+  Medium-low risk (yellow)
+\item
+  Medium-high risk (orange)
+\item
+  High risk (red)
+\end{itemize}
+
+This deliberate simplification serves multiple purposes. First, it
+acknowledges that AI-based health assessment is still an evolving
+science and avoids implying a precision that might be misleading.
+Second, it presents information in an easily digestible format that
+clients can quickly comprehend. Third, it facilitates productive
+conversations about health trends without creating undue anxiety over
+minor variations.
+
+Each report includes:
+
+\begin{itemize}
+\tightlist
+\item
+  A summary score for the specific health dimension
+\item
+  Detailed breakdown of contributing factors
+\item
+  Comparative data showing where results fall relative to age-matched
+  population norms
+\item
+  Change indicators for returning clients, highlighting improvements or
+  declines since previous assessments
+\item
+  Suggested focus areas for further investigation or intervention
+\item
+  Customizable recommendations that practitioners can tailor to their
+  specific approach
+\end{itemize}
+
+Reports can be extensively customized to align with each practice's
+approach and brand identity. Practitioners can add their logo, contact
+information, and even scheduling functionality to make it easy for
+clients to book follow-up appointments. The recommendation sections are
+particularly flexible, allowing practitioners to replace generic
+suggestions with specific guidance that reflects their unique
+approach---whether that involves nutritional strategies, supplement
+recommendations, or particular therapeutic modalities.
+
+This structured approach allows practitioners to quickly grasp key
+insights while having access to deeper information when needed. The
+standardized format also facilitates comparison across time, enabling
+effective monitoring of changes in response to wellness interventions.
+
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, left=2mm, rightrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-caution-color!10!white, titlerule=0mm, toptitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Caution: Not Intended for Diagnosis}, arc=.35mm, leftrule=.75mm, opacityback=0, coltitle=black, colframe=quarto-callout-caution-color-frame, breakable]
 
 We must repeat over and over: the Opticare AI system is not currently
 authorized by the FDA to diagnose or treat any disease. The following
@@ -2151,7 +2212,7 @@ any health-related conclusions be made by a qualified professional.
 
 \end{tcolorbox}
 
-\subsection{1. Macular Vision Health}\label{macular-vision-health}
+\section{Macular Vision Health}\label{macular-vision-health}
 
 Building on the research discussed in Chapter 2, the macular vision
 health score evaluates retinal structures critical for central vision.
@@ -2197,7 +2258,19 @@ Practitioners can use this information to:
   Monitor effectiveness of current wellness interventions
 \end{itemize}
 
-\subsection{Circulatory Health}\label{circulatory-health}
+The macular vision health report provides a comprehensive assessment of
+the central retina, highlighting both strengths and potential areas of
+concern. While avoiding specific diagnostic claims, it offers valuable
+insights that can guide wellness recommendations and highlight patterns
+that might warrant further investigation by vision specialists.
+
+For example, the report might indicate subtle changes in macular
+structure that correlate with known risk factors for age-related vision
+changes. This information allows practitioners to discuss preventive
+measures such as nutritional interventions, blue light protection, or
+lifestyle modifications that support long-term eye health.
+
+\section{Circulatory Health}\label{circulatory-health}
 
 The circulatory health metric analyzes retinal vessel patterns,
 providing insights into systemic vascular health. This assessment
@@ -2215,8 +2288,8 @@ includes:
   Microvascular pattern assessment
 \end{itemize}
 
-Drawing from research presented in Chapter 2, particularly the work of
-Ma et al. (2022) and subsequent studies, fundus images can reflect:
+Drawing from research presented in Chapter 2\footnote{Especially Ma et
+  al. (2022)} and subsequent studies, fundus images can reflect:
 
 \begin{itemize}
 \tightlist
@@ -2242,7 +2315,21 @@ The scientific basis includes:
   conditions
 \end{itemize}
 
-\subsection{Cognitive Health}\label{cognitive-health}
+The circulatory health report provides a window into the body's
+microvascular system, which often reflects broader vascular health
+trends. Practitioners can use this information to guide discussions
+about cardiovascular wellness strategies, including nutritional
+approaches, exercise recommendations, and stress management techniques
+that support healthy circulation.
+
+For returning clients, tracking changes in vessel patterns over time can
+provide objective feedback about the effectiveness of wellness
+interventions. Improvements in retinal vessel characteristics often
+parallel broader improvements in vascular health, offering tangible
+evidence of positive change that can enhance client motivation and
+engagement.
+
+\section{Cognitive Health}\label{cognitive-health}
 
 The cognitive health assessment leverages emerging research linking
 retinal characteristics to neurological health. Key components include:
@@ -2257,9 +2344,8 @@ retinal characteristics to neurological health. Key components include:
   Structural integrity assessment
 \end{itemize}
 
-Based on research discussed in Chapter 2, particularly the work on CAIDE
-dementia risk scoring\footnote{Hua et al. (2022)}, this metric
-considers:
+Based on research discussed in Chapter 2\footnote{See the work on CAIDE
+  dementia risk scoring from Hua et al. (2022)}, this metric considers:
 
 \begin{itemize}
 \tightlist
@@ -2283,7 +2369,21 @@ The scientific foundation includes:
   Correlation studies between retinal structure and brain health
 \end{itemize}
 
-\subsection{Metabolic Health}\label{metabolic-health}
+The cognitive health report provides valuable insights into potential
+neural health patterns while carefully avoiding specific diagnostic
+claims. This information can guide discussions about brain-healthy
+lifestyle practices, including cognitive stimulation activities,
+nutritional approaches that support neural function, and physical
+activities that promote brain health.
+
+For practices focused on holistic wellness, the cognitive health report
+offers a unique opportunity to address an aspect of health that clients
+often find difficult to assess objectively. The ability to visualize and
+track neural health markers over time provides a tangible way to discuss
+cognitive wellness strategies that might otherwise seem abstract or
+difficult to measure.
+
+\section{Metabolic Health}\label{metabolic-health}
 
 The metabolic health score draws from extensive research linking retinal
 changes to metabolic function. This includes analysis of:
@@ -2310,11 +2410,24 @@ Research support comes from:
   Investigations of insulin resistance markers in retinal tissue
 \end{itemize}
 
-\subsection{5. Cardiovascular Health}\label{cardiovascular-health}
+The metabolic health report provides insights into patterns that
+correlate with metabolic function, offering a unique window into this
+critical aspect of wellness. Practitioners can use this information to
+guide discussions about nutritional strategies, physical activity
+recommendations, and other interventions that support metabolic health.
 
-Building on research presented in Chapter 2, particularly the Science
-Bulletin study on ICVD risk\footnote{Ma et al. (2022)}, this metric
-evaluates:
+For practices focused on weight management, metabolic optimization, or
+sports performance, this report offers valuable information about how
+current strategies are affecting metabolic function at the microvascular
+level. This can be particularly valuable when working with clients who
+may not be seeing immediate changes in traditional metrics like weight
+or body composition but are making meaningful progress in terms of
+metabolic health.
+
+\section{Cardiovascular Health}\label{cardiovascular-health}
+
+Building on research presented in Chapter 2\footnote{See the Ma et al.
+  (2022) study on ICVD risk}, this metric evaluates:
 
 \begin{itemize}
 \tightlist
@@ -2339,12 +2452,32 @@ The scientific basis includes:
   Long-term outcome studies
 \end{itemize}
 
+The cardiovascular health report provides a comprehensive assessment of
+patterns that correlate with heart health, complementing traditional
+cardiovascular risk assessments. This information can guide discussions
+about heart-healthy nutrition, appropriate physical activity, stress
+management, and other interventions that support cardiovascular
+wellness.
+
+For practices that already incorporate other cardiovascular assessments,
+the Opticare report provides complementary information that often
+reflects earlier changes than might be detectable through traditional
+measures like blood pressure or cholesterol screening. This
+early-warning capability aligns perfectly with the preventive focus of
+wellness practice.
+
 \section{Practical Implementation}\label{practical-implementation}
 
-\subsection{Interpreting Reports}\label{interpreting-reports}
+\textbf{Interpreting Reports}
 
-Practitioners should approach these reports as screening tools that
-complement other clinical findings. Key considerations include:
+Practitioners should approach these reports as conversation starters
+that complement other clinical findings rather than definitive
+diagnostic tools. This perspective aligns with Opticare's philosophy
+(explored further in Chapter 6) that making advanced technology
+available now, even as the science continues to evolve, provides greater
+benefit than waiting for perfect validation.
+
+Key considerations when interpreting reports include:
 
 \begin{itemize}
 \tightlist
@@ -2354,9 +2487,53 @@ complement other clinical findings. Key considerations include:
   Recognizing significant changes
 \item
   Identifying patterns requiring further investigation
+\item
+  Contextualizing results within a client's age range
+\item
+  Prioritizing established clinical findings when contradictions arise
 \end{itemize}
 
-\subsection{Client Communication}\label{client-communication}
+When interpreting Opticare reports, it's essential to consider both
+absolute values and trends over time. Single measurements provide
+valuable baseline information, but the most meaningful insights often
+come from tracking changes across multiple assessments. Improvements or
+declines in specific metrics can help evaluate the effectiveness of
+wellness interventions and guide adjustments to treatment plans.
+
+Age consideration is particularly important when interpreting results.
+The prevalence of health issues naturally increases with age, so risk
+indicators tend to follow predictable patterns across the lifespan.
+Younger clients in their twenties typically show predominantly ``green''
+(low risk) results across categories, while clients in their sixties
+might commonly display more ``orange'' (medium-high risk) indicators
+without necessarily having acute health concerns. This age-related
+progression should be factored into discussions about results.
+
+When Opticare results contradict other clinical findings, practitioners
+should prioritize established standards of care. For example, if a
+client's HbA1c indicates metabolic issues but their Opticare metabolic
+health report shows low risk, the practitioner should follow standard
+protocols for addressing the elevated HbA1c. Conversely, if an Opticare
+report indicates medium-high cardiovascular risk in a client with normal
+cholesterol and blood pressure, practitioners should view this as a
+single data point that may warrant monitoring rather than immediate
+intervention. The technology should enhance, not replace, clinical
+judgment.
+
+Context is critical when interpreting results. Factors like a client's
+age, overall health status, medication use, and recent lifestyle changes
+can all influence retinal patterns. The Opticare AI system accounts for
+many of these factors, but professional judgment remains essential for
+proper interpretation.
+
+While the system identifies patterns associated with various health
+dimensions, practitioners should maintain appropriate professional
+boundaries when discussing results. The focus should remain on wellness
+promotion and early identification of potential concerns rather than
+specific disease diagnosis. Consider the reports as the beginning of a
+health conversation rather than the final word on a client's condition.
+
+\textbf{Client Communication}
 
 Effective communication about report findings includes:
 
@@ -2372,7 +2549,31 @@ Effective communication about report findings includes:
   Integration with other clinical findings
 \end{itemize}
 
-\subsection{Follow-up Protocols}\label{follow-up-protocols}
+When discussing Opticare reports with clients, visual aids can
+significantly enhance understanding. The reports themselves are designed
+with clear graphics that help clients grasp complex information quickly.
+Walking clients through each metric while explaining its significance in
+everyday terms helps build both understanding and trust.
+
+Frame discussions in terms of wellness optimization rather than disease
+prediction. For example, rather than focusing on potential negative
+outcomes associated with certain patterns, emphasize positive steps
+clients can take to support their health in each dimension covered by
+the reports.
+
+Connect Opticare findings with other aspects of your wellness assessment
+to create a coherent narrative about the client's current health status
+and opportunities for improvement. This integrated approach helps
+clients see the value of comprehensive assessment and understand how
+various aspects of health interconnect.
+
+Use the reports as a foundation for collaborative goal-setting. The
+visual nature of the metrics makes it easy to establish baseline
+measurements and set specific, measurable targets for improvement. This
+collaborative approach enhances client engagement and ownership of their
+wellness journey.
+
+\textbf{Follow-up Protocols}
 
 Establishing clear protocols for:
 
@@ -2388,6 +2589,68 @@ Establishing clear protocols for:
   Progress tracking
 \end{itemize}
 
+Develop standardized follow-up schedules based on initial findings. For
+example, clients with metrics in optimal ranges might benefit from
+annual reassessments, while those with patterns suggesting potential
+concerns might warrant more frequent monitoring, such as quarterly or
+semi-annual follow-ups.
+
+Create clear guidelines for when findings warrant referral to other
+healthcare providers. While maintaining appropriate scope of practice,
+establish relationships with specialists who can provide more detailed
+evaluation when needed. Document your referral protocols to ensure
+consistent, appropriate care across all clients.
+
+Implement systematic progress tracking that allows for easy
+visualization of changes over time. This might include graphical
+representations of key metrics across multiple assessments, highlighting
+improvements and areas requiring continued attention.
+
+Use follow-up appointments to reinforce positive changes and address
+challenges. Review previous recommendations, assess compliance, and
+adjust wellness plans based on both subjective feedback and objective
+changes in retinal patterns.
+
+\section{Integration with Practice
+Philosophy}\label{integration-with-practice-philosophy}
+
+The Opticare AI system aligns with the philosophy that technology often
+moves faster than traditional scientific validation processes---a
+concept explored in greater detail in Chapter 6. This forward-thinking
+approach recognizes that waiting for complete scientific consensus
+before adopting potentially beneficial technologies may delay valuable
+care opportunities.
+
+When integrating Opticare reports into your practice philosophy,
+consider them as innovative tools that provide unique insights rather
+than definitive diagnostic instruments. Their greatest value often lies
+in their ability to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Initiate meaningful health conversations with clients
+\item
+  Provide visual representation of otherwise abstract health concepts
+\item
+  Track subtle changes that might not be captured by traditional
+  assessments
+\item
+  Offer early indications of potential concerns before they manifest as
+  clinical symptoms
+\item
+  Enhance client engagement through technologically advanced yet
+  accessible assessment
+\end{enumerate}
+
+This approach acknowledges both the potential and limitations of
+AI-based fundus camera health assessment while maximizing its value
+within a comprehensive wellness practice. By positioning the technology
+as one component of a multifaceted assessment strategy, practitioners
+can leverage its capabilities while maintaining appropriate professional
+perspective.
+
 \section{Conclusion}\label{conclusion}
 
 Opticare AI health reports provide a sophisticated yet accessible way to
@@ -2396,6 +2659,12 @@ understanding both the scientific foundation and practical application
 of these metrics, practitioners can effectively integrate this
 technology into their wellness practice while maintaining appropriate
 professional boundaries.
+
+Treating the reports as ``the start of a conversation, not the end''
+captures the essence of their proper implementation. This perspective
+recognizes that AI-based fundus camera health assessment continues to
+evolve, with practitioners and clients alike benefiting from access to
+cutting-edge technology even as the science develops further.
 
 The next chapter will explore practical applications of the Opticare
 system in various clinical settings, building on this understanding of
@@ -2418,18 +2687,17 @@ accessible for health and wellness professionals.
 
 \caption{Health assessment features}
 
-\end{figure}%
-
-Providers can choose to make some reports optional, viewable only when
-unlocked.
-
+\end{figure}%%
 \begin{figure}[H]
 
 {\centering \pandocbounded{\includegraphics[keepaspectratio]{_resources/images/reports/ReportLocked.png}}
 
 }
 
-\caption{Locked health reports}
+\caption{Providers can choose to make some reports optional, viewable
+only when unlocked. For example, in a community screening setting, the
+prospective patient might be required to schedule a clinic appointment
+to unlock the full report.}
 
 \end{figure}%
 
@@ -2597,7 +2865,7 @@ Factors:}\label{mobile-screening-success-factors}
 
 \section{Case Studies}\label{case-studies}
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, coltitle=black, colback=white, opacityback=0, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Case Study 1: Integrative Wellness Center}, breakable, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, left=2mm, rightrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, toptitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Case Study 1: Integrative Wellness Center}, arc=.35mm, leftrule=.75mm, opacityback=0, coltitle=black, colframe=quarto-callout-note-color-frame, breakable]
 
 A typical wellness center approach focuses on combining retinal imaging
 with other wellness assessments to provide comprehensive care.
@@ -2632,7 +2900,7 @@ Results (First 6 Months):
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, coltitle=black, colback=white, opacityback=0, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Case Study 2: Corporate Wellness Program}, breakable, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, left=2mm, rightrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, toptitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Case Study 2: Corporate Wellness Program}, arc=.35mm, leftrule=.75mm, opacityback=0, coltitle=black, colframe=quarto-callout-note-color-frame, breakable]
 
 This team incorporated the Opticare AI camera into their corporate
 wellness programs, serving multiple businesses in the Minneapolis area.
@@ -2767,7 +3035,7 @@ relationship. This explanation should remain grounded in wellness
 promotion rather than medical diagnosis, helping patients understand the
 technology's role in their broader health journey.
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, coltitle=black, colback=white, opacityback=0, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Sample Introduction Script}, breakable, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, left=2mm, rightrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-tip-color!10!white, titlerule=0mm, toptitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Sample Introduction Script}, arc=.35mm, leftrule=.75mm, opacityback=0, coltitle=black, colframe=quarto-callout-tip-color-frame, breakable]
 
 \begin{quote}
 As part of our commitment to providing comprehensive wellness care, we
@@ -6105,7 +6373,7 @@ Follow these steps to get started:
 
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, colframe=quarto-callout-important-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-important-color!10!white, toptitle=1mm, coltitle=black, colback=white, opacityback=0, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Save the key!}, breakable, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, left=2mm, rightrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-important-color!10!white, titlerule=0mm, toptitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Save the key!}, arc=.35mm, leftrule=.75mm, opacityback=0, coltitle=black, colframe=quarto-callout-important-color-frame, breakable]
 
 You will need the key when you pack the camera for transportation, so
 put it in a place where you won't lose it.
@@ -6129,7 +6397,7 @@ should be on.
 \textbf{Initialization}: Wait for the camera to initialize and prompt
 you for the next steps.
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, bottomtitle=1mm, left=2mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, coltitle=black, colback=white, opacityback=0, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, breakable, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, toprule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, left=2mm, rightrule=.15mm, colback=white, bottomtitle=1mm, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, toptitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, leftrule=.75mm, opacityback=0, coltitle=black, colframe=quarto-callout-note-color-frame, breakable]
 
 The camera is pre-configured with your Wi-Fi network. You should hear
 the message: ``Connected to the network,'' confirming it is connected to
