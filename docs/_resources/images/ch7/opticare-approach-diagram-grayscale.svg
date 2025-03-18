@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="15" ry="15" />
+  
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333333">The Opticare Approach</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="95" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666666">Bridging the Innovation-Validation Gap</text>
+  
+  <!-- Center Circle -->
+  <circle cx="400" cy="290" r="90" fill="#555555" opacity="0.9" />
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">Opticare</text>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">AI Fundus Camera</text>
+  
+  <!-- Principle 1: Continuous Innovation -->
+  <circle cx="200" cy="210" r="70" fill="#333333" opacity="0.9" />
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Continuous</text>
+  <text x="200" y="225" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Innovation</text>
+  
+  <!-- Principle 2: Radical Ease of Use -->
+  <circle cx="600" cy="210" r="70" fill="#777777" opacity="0.9" />
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Radical</text>
+  <text x="600" y="225" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Ease of Use</text>
+  
+  <!-- Principle 3: Partnership with Clinicians -->
+  <circle cx="400" cy="460" r="70" fill="#444444" opacity="0.9" />
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Partnership</text>
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">with Clinicians</text>
+  
+  <!-- Connector Lines -->
+  <line x1="260" y1="235" x2="330" y2="265" stroke="#888888" stroke-width="2" />
+  <line x1="540" y1="235" x2="470" y2="265" stroke="#888888" stroke-width="2" />
+  <line x1="400" y1="380" x2="400" y2="390" stroke="#888888" stroke-width="2" />
+  
+  <!-- Principle 1 Detail -->
+  <text x="145" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">• Rapid deployment</text>
+  <text x="145" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">• Continuous updates</text>
+  <text x="145" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">• Iterative improvement</text>
+  
+  <!-- Principle 2 Detail -->
+  <text x="655" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">• Intuitive design</text>
+  <text x="655" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">• Minimal training</text>
+  <text x="655" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">• Accessible to all</text>
+  
+  <!-- Principle 3 Detail -->
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">• Enhances professional judgment</text>
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">• Clinician-informed development</text>
+  <text x="400" y="580" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333333">• Ongoing practitioner support</text>
+</svg>

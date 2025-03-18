@@ -171,32 +171,6 @@ The key to success lies in developing systems that can effectively collect, anal
 Ultimately, this integrated approach to health monitoring enables a more nuanced and effective form of personalized medicine. By understanding how various health parameters interact and respond to interventions, practitioners can develop more targeted and effective treatment strategies for each individual patient. The inclusion of retinal imaging in this comprehensive framework adds a unique and valuable dimension to health assessment, offering insights that complement and enhance other diagnostic modalities.
 
 
-## Case Studies in Integration
-
-Consider these examples of how multi-modal assessment can enhance patient care:
-
-### Case 1: Metabolic Optimization
-
-A 45-year-old executive presents with fatigue and weight gain:
-
-- Fundus imaging shows early signs of arterial stiffening
-- CGM reveals significant glucose variability
-- Blood work shows pre-diabetic markers
-- HRV indicates poor stress recovery
-
-The integration of these findings leads to a comprehensive intervention plan targeting lifestyle factors, stress management, and metabolic support.
-
-### Case 2: Cognitive Protection
-
-A 65-year-old retiree concerned about family history of dementia:
-
-- Retinal imaging shows mild microvascular changes
-- Cognitive testing reveals slight processing speed decline
-- Genetic testing indicates increased Alzheimer's risk
-- Balance assessment shows minor deficits
-
-The combined data enables early intervention with targeted cognitive support, movement training, and vascular health optimization.
-
 ## Future Integration Possibilities
 
 The horizon of diagnostic technology continues to expand rapidly, promising exciting new possibilities for integrated health assessment. Advanced OCT (Optical Coherence Tomography) imaging represents one of the most promising frontiers, offering unprecedented resolution and detail in retinal visualization. This technology allows practitioners to examine retinal layers with microscopic precision, revealing subtle changes that might indicate early stages of various systemic conditions. When combined with traditional fundus photography, OCT imaging provides a comprehensive view of ocular and systemic health that was previously unattainable in a clinical setting.

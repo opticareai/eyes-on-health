@@ -46,6 +46,7 @@ format:
     documentclass: scrbook
     geometry: paperwidth=6in,paperheight=9in
     standalone: true
+    toc-depth: 2  
     keep-tex: true
     header-includes:
       - \raggedbottom

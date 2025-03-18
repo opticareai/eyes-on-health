@@ -1,6 +1,7 @@
-# Addressing Skepticism and Setting Expectations
+---
+title: "Addressing Skepticism and Setting Expectation"
+---
 
-## Introduction
 
 Innovation in healthcare technology invariably faces healthy skepticism from both practitioners and clients—and rightly so. The integration of new diagnostic tools into an established practice requires careful consideration of technical capabilities, professional responsibilities, and patient care standards. This chapter addresses common concerns about retinal imaging technology while providing frameworks for setting appropriate expectations and maintaining professional integrity.
 

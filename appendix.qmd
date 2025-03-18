@@ -41,7 +41,6 @@ Follow these steps to get started:
 
 1. **Unpack the Camera**: Open the case, take out the camera and the stand. 
 
-![The camera arrives in a case with all materials you'll need](_resources/images/camera/CameraUnpacked.jpeg)
 
 2. **Set Up the Stand**: Unfold the stand. Ensure the QR code is facing front. You can take out the QR code if you choose to not letting the users to scan themselves. 
 
