@@ -29,11 +29,12 @@ Perhaps most critically, modern fundus cameras must operate without pupil dilati
 
 ::: {.callout-note title="Why is Non-Mydriatic Operation Critical?"} 
 
-Pupil dilation (mydriasis) traditionally relies on pharmaceutical agents like tropicamide, phenylephrine, or cyclopentolate. These medications work by either stimulating the iris dilator muscles (alpha-adrenergic agonists like phenylephrine) or paralyzing the iris sphincter muscles (anticholinergics like tropicamide). While effective for creating a larger imaging window, these drugs can cause significant side effects ranging from temporary discomfort to serious medical emergencies.
+Pupil dilation (mydriasis) traditionally relies on pharmaceutical agents like tropicamide, phenylephrine, or cyclopentolate. These medications work by either stimulating the iris dilator muscles (alpha-adrenergic agonists like phenylephrine) or paralyzing the iris sphincter muscles (anticholinergics like tropicamide). While effective for creating a larger imaging window, these drugs can cause significant side effects ranging from temporary discomfort to serious medical emergencies. \newline{}
 
-Common side effects include light sensitivity, blurred near vision, and difficulty focusing that can last 4-6 hours. Patients cannot drive safely during this period and may experience significant disruption to their daily activities. More concerning are rare but serious reactions including acute angle-closure glaucoma, which can cause permanent vision loss if not treated promptly. Systemic effects can include increased heart rate, elevated blood pressure, and central nervous system disturbances.
+Common side effects include light sensitivity, blurred near vision, and difficulty focusing that can last 4-6 hours. Patients cannot drive safely during this period and may experience significant disruption to their daily activities. More concerning are rare but serious reactions including acute angle-closure glaucoma, which can cause permanent vision loss if not treated promptly. Systemic effects can include increased heart rate, elevated blood pressure, and central nervous system disturbances.\newline{}
 
-Particular care is required for patients with certain medical conditions or taking specific medications. For example, patients with narrow anterior chamber angles are at heightened risk for angle-closure glaucoma. Those taking certain psychiatric medications, particularly tricyclic antidepressants or MAO inhibitors, can experience dangerous drug interactions.
+Particular care is required for patients with certain medical conditions or taking specific medications. For example, patients with narrow anterior chamber angles are at heightened risk for angle-closure glaucoma. Those taking certain psychiatric medications, particularly tricyclic antidepressants or MAO inhibitors, can experience dangerous drug interactions. \newline{}
+
 
 The administration of mydriatic drops therefore requires:
 
