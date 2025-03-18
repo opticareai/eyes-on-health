@@ -201,7 +201,7 @@
 
 \title{Eyes on Health}
 \author{Richard Sprague}
-\date{2025-03-04}
+\date{2025-03-18}
 
 \begin{document}
 \frontmatter
@@ -265,6 +265,25 @@ technology.
 
 To learn more about Opticare, see \url{https://opticare.ai}.
 
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, breakable, colframe=quarto-callout-caution-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-caution-color!10!white, left=2mm, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Disclaimer}, bottomtitle=1mm, opacityback=0, colback=white, opacitybacktitle=0.6, coltitle=black, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm]
+
+The information provided in this book is intended for educational and
+informational purposes only. It is not intended as medical advice,
+diagnosis, or treatment. The Opticare AI system is not currently
+authorized by the FDA to diagnose or treat any disease. Always consult
+with a qualified healthcare professional before making any decisions
+about your health or incorporating new technologies into your practice.
+The authors and publisher disclaim any liability arising directly or
+indirectly from the use or application of any information contained in
+this book. While every effort has been made to ensure the accuracy of
+the information presented, healthcare practices, regulations, and
+technologies continue to evolve, and readers should verify current
+information independently. References to specific research studies,
+technologies, and applications are included to provide context, not as
+endorsements or guarantees of efficacy or results.
+
+\end{tcolorbox}
+
 \bookmarksetup{startatroot}
 
 \chapter{The Eye as a Window: Unveiling the Power of Retinal
@@ -278,7 +297,7 @@ celebrated for its capacity to perceive the world around us. Yet, this
 remarkable organ holds far greater potential than solely enabling sight.
 It is a complex, living tissue -- a veritable microcosm of the human
 body, with its own unique vascular and neural structure that provides a
-direct, non-invasive window into one's overall health. As we delve into
+direct, non-invasive window into one's overall health. As we dig into
 the capabilities of modern imaging techniques, particularly fundus
 photography, we begin to uncover a new paradigm in medicine, where the
 eye serves as a powerful diagnostic tool, extending far beyond the
@@ -288,11 +307,11 @@ For centuries, the examination of the retina was limited to what could
 be observed using traditional ophthalmoscopy. While still a valuable
 technique, ophthalmoscopy requires specialized training, a skilled eye,
 and does not capture information in a way that can be easily stored or
-shared {[}1{]}. However, modern technology has brought forth
-non-mydriatic fundus cameras that, when coupled with artificial
-intelligence, have unlocked the hidden potential of retinal imaging.
-With these advancements, the subtle changes visible in retinal blood
-vessels and other structures of the eye can now be quantified and
+shared\footnote{Lin et al. (2021a)}. However, modern technology has
+brought forth non-mydriatic fundus cameras that, when coupled with
+artificial intelligence, have unlocked the hidden potential of retinal
+imaging. With these advancements, the subtle changes visible in retinal
+blood vessels and other structures of the eye can now be quantified and
 correlated with a wide range of systemic conditions, transforming the
 way we approach health assessment. This new vista into the body, seen
 through a single, relatively simple, non-invasive procedure, has the
@@ -320,6 +339,16 @@ pathways and common cell types. This close connection means that the
 retina is not merely a passive receiver of visual information, but an
 active extension of the central nervous system and can thus reflect the
 overall neural health of the body.
+
+When medical professionals examine the eye, they look at what's called
+the ``fundus'' -- the interior surface of the eye opposite the lens that
+includes the retina, optic disc, macula, and posterior pole. The term
+``fundus'' comes from Latin, meaning ``bottom'' or ``base,'' as it
+represents the back portion of the eye's interior that can be visualized
+during an examination. When we refer to fundus photography or imaging
+throughout this book, we're discussing the specialized photography of
+this internal back surface of the eye, which contains these critical
+structures that reflect both ocular and systemic health.
 
 \begin{figure}[H]
 
@@ -400,14 +429,48 @@ vessels). These changes progress to more severe forms of the disease,
 such as proliferative diabetic retinopathy which may include
 neovascularisation. The retinal changes in diabetic retinopathy are
 often subtle in the early stages of the disease and are therefore easily
-missed by traditional methods. Fundus photography is essential for early
-detection of diabetic retinopathy. The changes visualized with fundus
-photography are often diagnostic and can enable the implementation of
-lifestyle changes and other therapeutic interventions, preventing the
-progression of diabetic retinopathy and vision loss. The early
-identification of DR may also be an indicator of wider systemic vascular
-changes, and highlights the need for better management of the systemic
-condition of diabetes.
+missed by traditional methods.
+
+Fundus photography is essential for early detection of diabetic
+retinopathy. Early detection is crucial because DR is highly treatable
+in its initial stages. Treatment options begin with improved glycemic
+control and blood pressure management, but often require specific
+ophthalmological interventions as the condition progresses.
+
+For more advanced cases, treatments include laser photocoagulation, a
+relatively quick outpatient procedure where a laser is used to seal
+leaking blood vessels and prevent new abnormal vessel formation. This
+20-30 minute procedure is performed under local anesthesia and patients
+typically return to normal activities the next day, though multiple
+sessions may be needed.
+
+Another treatment option is anti-VEGF (Vascular Endothelial Growth
+Factor) therapy. VEGF is a protein that stimulates the growth of new
+blood vessels, which in diabetic retinopathy can be fragile and leak
+easily. Anti-VEGF medications such as ranibizumab (Lucentis) or
+aflibercept (Eylea) are injected directly into the eye to block this
+protein, reducing abnormal vessel growth and fluid leakage. These
+injections are performed in an ophthalmologist's office under local
+anesthesia and take just minutes to administer, though they may need to
+be repeated every 4-6 weeks for optimal effect.
+
+For more severe cases, vitrectomy surgery might be necessary. This is a
+more invasive procedure performed in a hospital setting where the
+vitreous gel is removed from the eye to allow access to the retina for
+repair. Recovery from vitrectomy typically takes several weeks and may
+require positioning restrictions and activity limitations.
+
+Without timely intervention, DR can progress to severe vision impairment
+or blindness, which may be irreversible. Additionally, the cost of
+treating advanced DR is substantially higher than early intervention,
+both financially and in terms of patient quality of life.
+
+The changes visualized with fundus photography are often diagnostic and
+can enable the implementation of lifestyle changes and other therapeutic
+interventions, preventing the progression of diabetic retinopathy and
+vision loss. The early identification of DR may also be an indicator of
+wider systemic vascular changes, and highlights the need for better
+management of the systemic condition of diabetes.
 
 \begin{figure}[H]
 
@@ -432,18 +495,51 @@ important roles. There are two main types of AMD: dry and wet. In dry
 AMD, drusen (yellowish deposits) form beneath the retina and RPE and may
 cause atrophy of the macula. In wet AMD, abnormal blood vessels grow
 beneath the retina, which causes leakage and haemorrhage and therefore
-leads to a rapid decline in vision. Fundus photography is a crucial tool
-for early detection of AMD, allowing clinicians to identify drusen or
-other subtle changes in the macula. The presence of drusen (yellow
-deposits beneath the retina) and pigmentary changes in the macula can
-also be indicative of earlier stages of the disease, giving opportunity
-for preventative action. AI analysis of fundus photos can enable early
-detection and classification of AMD which may lead to early intervention
-such as lifestyle modifications and vitamin supplements that may slow
-the progression of the disease. It also allows for rapid identification
-of the wet form of AMD, which is more severe, and patients with new
-onset wet AMD are urgently referred to retina specialists for
-interventions.
+leads to a rapid decline in vision.
+
+Treatment options vary significantly between the two forms of AMD. For
+dry AMD, which accounts for about 85-90\% of cases, there is currently
+no FDA-approved treatment that can reverse the condition. However,
+specific high-dose nutritional supplements known as the AREDS2 formula
+(containing vitamins C and E, zinc, copper, lutein, and zeaxanthin) have
+been shown in large clinical trials to reduce the risk of progression to
+advanced stages by about 25\% over five years. Lifestyle modifications,
+including smoking cessation, regular exercise, maintaining normal blood
+pressure, and consuming a diet rich in green leafy vegetables and fish,
+may also help slow progression.
+
+For wet AMD, treatment options are more interventional and
+time-sensitive. The standard of care involves anti-VEGF injections
+similar to those used for diabetic retinopathy. These
+medications---including ranibizumab (Lucentis), aflibercept (Eylea), and
+bevacizumab (Avastin)---are injected directly into the eye usually once
+every four to eight weeks initially. These outpatient procedures take
+only minutes and are performed under local anesthesia. Newer
+formulations like brolucizumab (Beovu) may allow for less frequent
+injections. When administered promptly, these injections can stabilize
+vision in over 90\% of patients and improve vision in about one-third of
+cases.
+
+For patients who don't respond to anti-VEGF therapy, photodynamic
+therapy may be considered. This two-step outpatient procedure involves
+intravenous administration of a light-sensitive drug that concentrates
+in abnormal blood vessels, followed by application of a cold laser to
+activate the drug and seal the leaking vessels.
+
+Fundus photography is a crucial tool for early detection of AMD,
+allowing clinicians to identify drusen or other subtle changes in the
+macula. The presence of drusen (yellow deposits beneath the retina) and
+pigmentary changes in the macula can also be indicative of earlier
+stages of the disease, giving opportunity for preventative action. AI
+analysis of fundus photos can enable early detection and classification
+of AMD which may lead to early intervention such as lifestyle
+modifications and vitamin supplements that may slow the progression of
+the disease. It also allows for rapid identification of the wet form of
+AMD, which is more severe, and patients with new onset wet AMD are
+urgently referred to retina specialists for interventions. Given that
+the window for effective treatment of wet AMD is narrow---often measured
+in days rather than weeks---this quick identification can be
+sight-saving.
 
 \begin{figure}[H]
 
@@ -465,17 +561,28 @@ associated with elevated intraocular pressure, glaucoma can also occur
 in people with normal or low eye pressure. The pathogenesis of glaucoma
 is thought to include increased intraocular pressure leading to
 mechanical stress on the optic disc and retinal nerve fiber layers as
-well as impaired blood supply to the nerve head. The optic nerve head is
-one of the main structures assessed when evaluating glaucoma and this
-structure can be seen quite clearly in a fundus photo. The optic nerve
+well as impaired blood supply to the nerve head.
+
+While definitive glaucoma diagnosis typically requires a comprehensive
+evaluation including tonometry (measuring intraocular pressure), visual
+field testing, and often Optical Coherence Tomography (OCT) to measure
+retinal nerve fiber layer thickness, fundus photography still plays a
+valuable role in glaucoma assessment. The optic nerve head is one of the
+main structures assessed when evaluating glaucoma, and changes to this
+structure can be initially observed in a fundus photo. The optic nerve
 may appear larger and show cupping or the loss of tissue rim around the
-optic disc in glaucoma. Retinal fundus imaging is important in the early
-detection of glaucomatous optic neuropathy, and can also be used to
-monitor disease progression and evaluate treatment efficacy. AI
-algorithms can accurately assess optic nerve head parameters, such as
-the disc-to-cup ratio, neuroretinal rim area, and vessel appearance,
-which will improve the reliability of diagnosis and enhance the quality
-of care.
+optic disc in glaucoma.
+
+Retinal fundus imaging serves as an important screening and monitoring
+tool, potentially identifying patients who require more definitive
+testing. It can also be used to document baseline optic nerve appearance
+and track structural changes over time. AI algorithms can help
+standardize the assessment of optic nerve head parameters from fundus
+images, such as the disc-to-cup ratio, neuroretinal rim area, and vessel
+appearance, which may improve screening efficiency and support clinical
+decision-making. However, it's important to note that these findings
+should be correlated with other clinical measurements for a definitive
+glaucoma diagnosis and management plan.
 
 \textbf{Hypertensive Retinopathy (HPR):} Hypertensive retinopathy is
 another microvascular disease that is highly correlated with
@@ -542,7 +649,7 @@ high. This is due to the variability of the quality of visualization as
 well as the subjectivity that comes into play when analyzing the complex
 patterns of the retina. Clinicians, especially non-ophthalmologists, are
 often unable to fully appreciate the subtle changes that may indicate
-early or underlying pathology {[}1{]}. Furthermore, the visualization is
+early or underlying pathology. Furthermore, the visualization is
 inherently limited by the observer's visual field and ability to
 maintain focus. These limitations also hinder the use of ophthalmoscopy
 as a population health screening tool, because of the need for highly
@@ -558,20 +665,21 @@ for consultation and a second opinion. This lack of a permanent record
 reduces the overall clinical value of traditional ophthalmoscopy.
 
 These shortcomings of traditional ophthalmoscopy have led to a surge of
-interest in fundus photography, particularly non-mydriatic cameras, as a
-more accessible, efficient and reliable way of assessing the retina. In
-contrast to traditional ophthalmoscopy, the non-mydriatic fundus cameras
-utilize a digital sensor and specialized optics to capture high
-resolution images of the retina without the need to dilate the pupils.
-This means that non-ophthalmologists can acquire retinal images, with
-minimal training, and can then share the data remotely or integrate the
-images into an electronic medical record. By making it possible to
-capture a permanent digital record, images can be archived and shared
-for review and consultation. This capability is particularly important
-in longitudinal studies that need to track changes in retinal structure
-over time. When used in conjunction with AI algorithms, retinal images
-become an exceptionally powerful tool that can assess a wide variety of
-disease and health conditions, beyond just the eye.
+interest in fundus photography, particularly non-mydriatic cameras that
+do not require pupil dilation, as a more accessible, efficient and
+reliable way of assessing the retina. In contrast to traditional
+ophthalmoscopy, the non-mydriatic fundus cameras utilize a digital
+sensor and specialized optics to capture high resolution images of the
+retina without the need to dilate the pupils. This means that
+non-ophthalmologists can acquire retinal images, with minimal training,
+and can then share the data remotely or integrate the images into an
+electronic medical record. By making it possible to capture a permanent
+digital record, images can be archived and shared for review and
+consultation. This capability is particularly important in longitudinal
+studies that need to track changes in retinal structure over time. When
+used in conjunction with AI algorithms, retinal images become an
+exceptionally powerful tool that can assess a wide variety of disease
+and health conditions, beyond just the eye.
 
 \section{Fundus Photography: Seeing Beyond the
 Eye}\label{fundus-photography-seeing-beyond-the-eye}
@@ -622,77 +730,98 @@ programs.
 \chapter{The Scientific Foundation: What the Evidence
 Reveals}\label{the-scientific-foundation-what-the-evidence-reveals}
 
-\section{The Retina: A Microcosm of the
-Body}\label{the-retina-a-microcosm-of-the-body}
+In Chapter 1, we explored how the retina serves as a remarkable window
+into human health. We discussed its unique anatomical and physiological
+properties, its connection to the brain, and the various eye pathologies
+visible through traditional fundus photography. This chapter takes the
+next step---examining how artificial intelligence has transformed
+retinal imaging from a specialized diagnostic tool into a powerful
+platform for comprehensive health assessment.
 
-Imagine a window, not to the outside world, but into the very core of
-your health. This window, remarkably, is not a sophisticated scanning
-device or an invasive procedure, but a small patch of tissue lining the
-back of your eye---the retina. For centuries, the retina has been
-primarily known for its role in vision, translating light into the
-images we perceive. However, groundbreaking research is now revealing
-that the retina is more than just a visual organ. It's a microcosm of
-your overall health, an accessible and revealing site that offers a
-unique window into the inner workings of your body. Through the lens of
-high-resolution fundus photography, we're now able to unlock a wealth of
-information beyond just the health of your eyes.
+For decades, retinal assessment was limited by human perceptual
+abilities. Even highly trained ophthalmologists were constrained by what
+the human eye could discern and what the human brain could process.
+Subtle vascular changes, minute tissue alterations, and complex pattern
+relationships often remained invisible or unrecognized. The introduction
+of artificial intelligence has fundamentally changed this paradigm.
 
-The retina isn't simply a standalone structure; it's an extension of
-your central nervous system, directly connected to your brain via the
-optic nerve. This direct link means that the health of the retina often
-reflects what's happening within the brain, as well as other organs.
-Like the brain, the retina has a complex layered structure of neural
-cells that respond to light, generating electrical signals that are then
-sent to the visual processing centers of the brain. Because of this
-direct connection to the brain, the retina is also subject to similar
-degenerative processes as occur in brain diseases, such as Alzheimer's.
-Therefore, studying the retina can often provide valuable insights into
-the health and functional status of the central nervous system.
+Where traditional diagnostics relied on identifying known pathological
+features---the enlarged optic cup of glaucoma or the distinctive
+exudates of diabetic retinopathy---AI systems can detect statistical
+patterns and relationships that have no established visual correlates.
+These systems don't just see differently; they see more, analyzing
+thousands of parameters simultaneously and identifying correlations
+invisible to human observers.
 
-The retina is also home to a complex network of blood vessels called the
-``retinal microvasculature.'' These microvessels are extraordinarily
-delicate and uniquely visible within the body without invasive
-procedures. This is where the eye's unique structure provides such a
-powerful opportunity: the transparency of the ocular tissues allows the
-direct visualization of the retinal microvasculature through
-non-invasive high-resolution fundus photography. Unlike other areas of
-the body where similar structures may exist, the microvasculature of the
-retina is not obscured by skin or muscle; hence, we can examine the
-condition of these microvessels non-invasively.
+This transformation mirrors the broader evolution in medical
+diagnostics---from reactive identification of established disease to
+proactive recognition of health trajectories and risk factors. The
+evidence we'll explore in this chapter demonstrates how AI-powered
+retinal analysis moves beyond traditional diagnostics toward a new model
+of health assessment: more accessible, more comprehensive, and more
+predictive than previously possible.
 
-The microvasculature is not merely a passive system. These tiny vessels
-are highly active, constantly regulating blood flow to ensure that the
-retina receives the optimal amount of oxygen and nutrients for its
-metabolic needs. Because of this highly active and sensitive nature, the
-microvasculature is readily impacted by metabolic changes and systemic
-inflammation. Therefore, this network of blood vessels provides a
-direct, easily accessible view of how the cardiovascular system responds
-to stressors and diseases. Moreover, these microvessels provide a unique
-opportunity to monitor conditions related to the heart, blood and brain
-in real-time. In addition to oxygen and nutrients, the blood vessels
-also transport immune cells and other blood components that can
-contribute to or mediate inflammation. Consequently, observation of
-retinal blood vessels can also give valuable insights into the state of
-inflammation of the body.
+\section{Artificial Intelligence: The Breakthrough
+Enabler}\label{artificial-intelligence-the-breakthrough-enabler}
 
-Further solidifying the idea of the retina as a microcosm, the retina
-shares embryonic origins, physiological characteristics, and anatomical
-structures with vital organs like the heart, brain, and kidneys. This
-shared developmental pathway means that these organs are often affected
-by similar diseases. For example, the endothelial cells that line the
-blood vessels in the heart, brain, kidneys and retina are all derived
-from similar progenitors in the embryo. Consequently, diseases that
-target endothelial cells, such as cardiovascular disease, can often be
-observed via changes in the retinal blood vessels. In fact, the study of
-retinal vascular changes has even helped researchers discover new
-potential disease mechanisms of systemic disorders.
+The true power of retinal imaging emerges through the application of
+advanced artificial intelligence. While human experts can identify
+obvious retinal pathologies, AI systems can detect subtle patterns and
+correlations invisible to the human eye.
 
-The significance of this shared origin is that the retina is often
-subjected to the same degenerative and pathological processes as many
-other tissues, making it a valuable proxy for what's happening
-throughout the body. Thus, the retina may not just reflect the state of
-one's eyes, but may also reflect the cumulative effects of overall
-health over time.
+\textbf{Deep Learning Architecture}
+
+Modern retinal analysis systems employ deep learning
+networks---sophisticated AI architectures inspired by the human brain's
+neural structure. These networks contain multiple processing layers that
+progressively extract higher-level features from raw image data.
+
+During the training process, these networks learn to identify patterns
+by analyzing millions of retinal images paired with known health
+outcomes. The system gradually develops the ability to recognize subtle
+relationships between retinal features and various health conditions.
+This learning process goes far beyond simple pattern matching---it
+enables the AI to discover new biomarkers and relationships that might
+never have been identified through traditional research methods.
+
+What distinguishes deep learning from previous computational approaches
+is its ability to automatically discover relevant features without
+explicit programming. Traditional image analysis might require engineers
+to specify exactly what features to measure (like vessel width or
+branching patterns). In contrast, deep learning systems determine
+independently which image characteristics are most relevant for health
+assessment, often identifying patterns too subtle or complex for human
+observers to recognize.
+
+\textbf{Quantitative Analysis Capabilities}
+
+AI-powered retinal analysis can precisely quantify numerous parameters
+that would be challenging for human assessment:
+
+\textbf{Vascular Measurements}: Automatic measurement of arteriolar and
+venular caliber, tortuosity, branching angles, and vessel wall
+characteristics with micrometer precision.
+
+\textbf{Structural Quantification}: Analysis of optic disc parameters
+(cup-to-disc ratio, neuroretinal rim area), macular region
+characteristics, and nerve fiber layer integrity.
+
+\textbf{Textural Analysis}: Evaluation of retinal background texture and
+subtle changes in reflectance that may indicate early pathological
+changes.
+
+\textbf{Longitudinal Comparisons}: Precise tracking of changes over
+time, allowing for early detection of progressive conditions and
+monitoring of treatment responses.
+
+\textbf{Comparative Analysis}: Matching patient findings against large
+normative databases, considering factors like age, sex, and ethnicity to
+provide contextualized health insights.
+
+These quantitative capabilities transform retinal imaging from a simple
+screening tool into a sophisticated health assessment platform capable
+of detecting subtle variations that correlate with systemic health
+conditions.
 
 \section{The Advantage of Fundus
 Photography}\label{the-advantage-of-fundus-photography}
@@ -887,7 +1016,7 @@ can't see. Some of these characteristics are as follows:
   robust than relying on single features alone.
 \end{itemize}
 
-\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, toptitle=1mm, left=2mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Understanding the Process}, toprule=.15mm, colback=white, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, breakable, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Understanding the Process}, bottomtitle=1mm, opacityback=0, colback=white, opacitybacktitle=0.6, coltitle=black, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm]
 
 When using the Opticare camera, you should keep the following in mind:
 
@@ -1422,7 +1551,7 @@ mortality risk in a range of different settings.
 \section{Beyond The Main Focus}\label{beyond-the-main-focus}
 
 The body of evidence supporting the use of fundus photography for
-general health assessment continues to grow\footnote{Lin et al. (2021a)},
+general health assessment continues to grow\footnote{Lin et al. (2021b)},
 expanding beyond cardiovascular, neurological, and hematological
 conditions. AI is proving to be a versatile tool, and its capabilities
 in analyzing the complexity of retinal images are expanding our
@@ -1726,7 +1855,7 @@ and blurred vision afterward, and cannot drive themselves home. These
 side effects make dilation impractical for routine wellness screenings
 and would severely limit patient acceptance.
 
-\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, toptitle=1mm, left=2mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Why is Non-Mydriatic Operation Critical?}, toprule=.15mm, colback=white, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, breakable, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Why is Non-Mydriatic Operation Critical?}, bottomtitle=1mm, opacityback=0, colback=white, opacitybacktitle=0.6, coltitle=black, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm]
 
 Pupil dilation (mydriasis) traditionally relies on pharmaceutical agents
 like tropicamide, phenylephrine, or cyclopentolate. These medications
@@ -2007,7 +2136,7 @@ service models and staged implementation.
 \section{Detailed Analysis of Health
 Metrics}\label{detailed-analysis-of-health-metrics}
 
-\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, colframe=quarto-callout-caution-color-frame, leftrule=.75mm, toptitle=1mm, left=2mm, breakable, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Caution: Not Intended for Diagnosis}, toprule=.15mm, colback=white, coltitle=black, colbacktitle=quarto-callout-caution-color!10!white, bottomtitle=1mm, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, breakable, colframe=quarto-callout-caution-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-caution-color!10!white, left=2mm, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Caution: Not Intended for Diagnosis}, bottomtitle=1mm, opacityback=0, colback=white, opacitybacktitle=0.6, coltitle=black, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm]
 
 We must repeat over and over: the Opticare AI system is not currently
 authorized by the FDA to diagnose or treat any disease. The following
@@ -2464,7 +2593,7 @@ Factors:}\label{mobile-screening-success-factors}
 
 \section{Case Studies}\label{case-studies}
 
-\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, toptitle=1mm, left=2mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Case Study 1: Integrative Wellness Center}, toprule=.15mm, colback=white, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, breakable, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Case Study 1: Integrative Wellness Center}, bottomtitle=1mm, opacityback=0, colback=white, opacitybacktitle=0.6, coltitle=black, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm]
 
 A typical wellness center approach focuses on combining retinal imaging
 with other wellness assessments to provide comprehensive care.
@@ -2499,7 +2628,7 @@ Results (First 6 Months):
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, toptitle=1mm, left=2mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Case Study 2: Corporate Wellness Program}, toprule=.15mm, colback=white, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, breakable, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Case Study 2: Corporate Wellness Program}, bottomtitle=1mm, opacityback=0, colback=white, opacitybacktitle=0.6, coltitle=black, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm]
 
 This team incorporated the Opticare AI camera into their corporate
 wellness programs, serving multiple businesses in the Minneapolis area.
@@ -2634,7 +2763,7 @@ relationship. This explanation should remain grounded in wellness
 promotion rather than medical diagnosis, helping patients understand the
 technology's role in their broader health journey.
 
-\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, toptitle=1mm, left=2mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Sample Introduction Script}, toprule=.15mm, colback=white, coltitle=black, colbacktitle=quarto-callout-tip-color!10!white, bottomtitle=1mm, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, breakable, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-tip-color!10!white, left=2mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Sample Introduction Script}, bottomtitle=1mm, opacityback=0, colback=white, opacitybacktitle=0.6, coltitle=black, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm]
 
 \begin{quote}
 As part of our commitment to providing comprehensive wellness care, we
@@ -5972,7 +6101,7 @@ Follow these steps to get started:
 
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, colframe=quarto-callout-important-color-frame, leftrule=.75mm, toptitle=1mm, left=2mm, breakable, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Save the key!}, toprule=.15mm, colback=white, coltitle=black, colbacktitle=quarto-callout-important-color!10!white, bottomtitle=1mm, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, breakable, colframe=quarto-callout-important-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-important-color!10!white, left=2mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Save the key!}, bottomtitle=1mm, opacityback=0, colback=white, opacitybacktitle=0.6, coltitle=black, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm]
 
 You will need the key when you pack the camera for transportation, so
 put it in a place where you won't lose it.
@@ -5996,7 +6125,7 @@ should be on.
 \textbf{Initialization}: Wait for the camera to initialize and prompt
 you for the next steps.
 
-\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, toptitle=1mm, left=2mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, toprule=.15mm, colback=white, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, arc=.35mm, opacitybacktitle=0.6, rightrule=.15mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, bottomrule=.15mm, breakable, colframe=quarto-callout-note-color-frame, leftrule=.75mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, bottomtitle=1mm, opacityback=0, colback=white, opacitybacktitle=0.6, coltitle=black, toptitle=1mm, arc=.35mm, rightrule=.15mm, toprule=.15mm]
 
 The camera is pre-configured with your Wi-Fi network. You should hear
 the message: ``Connected to the network,'' confirming it is connected to
@@ -6057,14 +6186,14 @@ Population-Based Study.''} \emph{The Lancet Neurology} 5 (9): 735--41.
 
 \bibitem[\citeproctext]{ref-lin_application_2021}
 Lin, Duoru, Jianhao Xiong, Congxin Liu, Lanqin Zhao, Zhongwen Li,
-Shanshan Yu, Xiaohang Wu, et al. 2021a. {``Application of
+Shanshan Yu, Xiaohang Wu, et al. 2021b. {``Application of
 {Comprehensive} {Artificial} Intelligence {Retinal} {Expert} ({CARE})
 System: A National Real-World Evidence Study.''} \emph{The Lancet
 Digital Health} 3 (8): e486--95.
 \url{https://doi.org/10.1016/S2589-7500(21)00086-8}.
 
 \bibitem[\citeproctext]{ref-lin_application_2021-1}
----------, et al. 2021b. {``Application of {Comprehensive} {Artificial}
+---------, et al. 2021a. {``Application of {Comprehensive} {Artificial}
 Intelligence {Retinal} {Expert} ({CARE}) System: A National Real-World
 Evidence Study.''} \emph{The Lancet Digital Health} 3 (8): e486--95.
 \url{https://doi.org/10.1016/S2589-7500(21)00086-8}.

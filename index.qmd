@@ -12,3 +12,9 @@ With scientific evidence, practical guidance, and forward-looking perspectives o
 
 
 To learn more about Opticare, see  <https://opticare.ai>.
+
+::: {.callout-caution}
+## Disclaimer
+
+The information provided in this book is intended for educational and informational purposes only. It is not intended as medical advice, diagnosis, or treatment. The Opticare AI system is not currently authorized by the FDA to diagnose or treat any disease. Always consult with a qualified healthcare professional before making any decisions about your health or incorporating new technologies into your practice. The authors and publisher disclaim any liability arising directly or indirectly from the use or application of any information contained in this book. While every effort has been made to ensure the accuracy of the information presented, healthcare practices, regulations, and technologies continue to evolve, and readers should verify current information independently. References to specific research studies, technologies, and applications are included to provide context, not as endorsements or guarantees of efficacy or results.
+:::
