@@ -11,7 +11,7 @@ book:
   site-url: https://opticareai.github.io/eyes-on-health/
   downloads: [pdf, epub]
   date: "3/19/2025"
-  cover-image: _resources/book/25OAI010_Bookcover-R02V01-Front.png
+  cover-image: _resources/book/eyeshealthcover2.png
   chapters:
     - index.qmd
     - 1-Chapter-Intro.qmd
@@ -53,5 +53,5 @@ format:
 
 
   epub:
-    cover-image: _resources/book/25OAI010_Bookcover-R02V01-Front.png
+    cover-image: _resources/book/eyeshealthcover2.png
   
