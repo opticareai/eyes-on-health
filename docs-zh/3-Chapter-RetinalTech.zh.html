@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>3&nbsp; 现代视网膜成像技术 – Eyes on Health</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./4-Chapter-Reports.zh.html" rel="next">
+<link href="./2-Chapter-Science.zh.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5df17783e47628fdd0a009a58fb5d268.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="_resources/book/css/normalize.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./3-Chapter-RetinalTech.zh.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">现代视网膜成像技术</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Eyes on Health</a> 
+        <div class="sidebar-tools-main">
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Eyes-on-Health.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Eyes-on-Health.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">前言</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1-Chapter-Intro.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">眼睛作为窗口：揭示视网膜成像的力量</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2-Chapter-Science.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">科学基础：证据揭示了什么</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3-Chapter-RetinalTech.zh.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">现代视网膜成像技术</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./4-Chapter-Reports.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Opticare AI – 创新与健康的结合</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5-Chapter-Wellness.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">在健康实践中的实际应用</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6-Chapter-Faster.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">技术发展快于科学</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7-Chapter-Future.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">视网膜成像与人工智能的未来</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8-Chapter-Beyond.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">超越眼睛 - 整体健康方法</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./9-Chapter-Skepticism.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">应对怀疑与设定期望</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-Chapter-Final.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">拥抱尖端技术</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">概要</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">附录：使用Opticare AI相机</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.zh.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">参考文献</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#引言" id="toc-引言" class="nav-link active" data-scroll-target="#引言"><span class="header-section-number">3.1</span> 引言</a></li>
+  <li><a href="#眼底相机技术的演变" id="toc-眼底相机技术的演变" class="nav-link" data-scroll-target="#眼底相机技术的演变"><span class="header-section-number">3.2</span> 眼底相机技术的演变</a></li>
+  <li><a href="#设计健康评估相机" id="toc-设计健康评估相机" class="nav-link" data-scroll-target="#设计健康评估相机"><span class="header-section-number">3.3</span> 设计健康评估相机</a></li>
+  <li><a href="#opticare-ai相机" id="toc-opticare-ai相机" class="nav-link" data-scroll-target="#opticare-ai相机"><span class="header-section-number">3.4</span> Opticare AI相机</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">现代视网膜成像技术</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="引言" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="引言"><span class="header-section-number">3.1</span> 引言</h2>
+<p>将先进的视网膜成像技术整合到健康实践中，代表了增强患者护理并构建更可持续商业模式的重要机会。本章探讨了现代眼底相机技术的基础，特别是关注近期技术进步如何促成了新的视网膜成像方法，这些方法优先考虑便携性、易用性和可负担性。</p>
+</section>
+<section id="眼底相机技术的演变" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="眼底相机技术的演变"><span class="header-section-number">3.2</span> 眼底相机技术的演变</h2>
+<p>半个多世纪以来，眼底相机一直是眼科实践的专属领域，代表了每台设备超过5万美元的重大投资。这些早期设备重量在20-35千克之间，需要专用的检查室，具备精确的环境控制和特殊的电气要求。操作这些设备需要广泛的培训，因为即使是轻微的错位也可能损害图像质量。这些系统的复杂性意味着一次图像捕捉可能需要15-20分钟的仔细调整和患者定位。</p>
+<p>传统眼底相机依赖复杂的闪光系统和基于胶片的摄影，需要仔细校准和维护。1990年代向数字传感器的过渡标志着重大进步，尽管早期的数字系统仍然保留了其基于胶片前辈的体积和复杂性。这些相机主要用于诊断眼疾，如糖尿病视网膜病变、青光眼和黄斑变性，其高成本因其在眼科治疗中的关键作用而显得合理。</p>
+<p>眼底相机技术的转型始于2000年代初的几个并行发展。由手机行业推动的高分辨率CMOS传感器的出现，为以传统CCD系统成本的一小部分进行图像捕捉提供了新的可能性。LED技术的进步促成了更高效、紧凑的照明系统，可以取代早期设计中笨重的闪光管。同样，光学制造的改进，特别是在非球面元件的精密模塑方面，允许开发更小、更轻的光学系统，同时保持甚至提升传统设计的图像质量。</p>
+<p>或许最重要的是，数字处理和人工智能的整合从根本上改变了视网膜成像的可能性。现代系统可以补偿轻微的错位，自动调整以适应患者差异，并为最佳图像捕捉提供实时指导。这些能力结合尺寸和成本的大幅降低，为将眼底摄影用于传统眼科环境之外开辟了新的可能性。</p>
+<p>这些技术进步的汇聚促成了一代新型眼底相机，这些相机在保持专业级图像质量的同时显著减少了尺寸、复杂性和成本。这些现代系统重量低至2千克，几乎无需设置或培训，代表了视网膜成像技术的民主化，使其可供更广泛的医疗从业者使用。</p>
+</section>
+<section id="设计健康评估相机" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="设计健康评估相机"><span class="header-section-number">3.3</span> 设计健康评估相机</h2>
+<p>将视网膜成像引入健康实践需要从基本原理重新思考传统眼底相机的设计。虽然眼科医生和眼科专家可以证明复杂、昂贵且需要专用操作员的设备是合理的，但健康从业者需要的是完全不同的东西——一个优先考虑可访问性、易用性和可负担性，同时保持专业级成像能力的系统。</p>
+<p>或许最为关键的是，现代眼底相机必须在无需瞳孔扩大的情况下运行（非散瞳操作），因为药物扩瞳的要求将严重限制其在健康环境中的实用性。传统眼底摄影通常依赖散瞳滴剂来扩大瞳孔，为成像提供更方便的通道，但这带来了显著的实际障碍——患者需要等待20-30分钟让瞳孔扩大，随后会经历数小时的光敏感和视力模糊，且无法自己开车回家。这些副作用使得扩瞳在常规健康筛查中不切实际，并将严重限制患者的接受度。</p>
+<div class="callout callout-style-default callout-note callout-titled" title="为什么非散瞳操作至关重要？">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+为什么非散瞳操作至关重要？
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>瞳孔扩大（散瞳）传统上依赖于药物剂，如托吡卡胺、去氧肾上腺素或环戊托酸。这些药物通过刺激虹膜扩张肌（像去氧肾上腺素这样的α-肾上腺素能激动剂）或麻痹虹膜括约肌（像托吡卡胺这样的抗胆碱能药物）起作用。虽然这些药物能有效创建更大的成像窗口，但它们可能引发从暂时不适到严重医疗紧急情况的副作用。</p>
+<p>常见副作用包括光敏感、近视模糊和聚焦困难，可能持续4-6小时。在此期间，患者无法安全驾驶，并可能对其日常活动造成重大干扰。更令人担忧的是罕见但严重的反应，如急性闭角型青光眼，如果不及时治疗可能导致永久性视力丧失。全身效应可能包括心率加快、血压升高和中枢神经系统紊乱。</p>
+<p>对于某些医疗条件或服用特定药物的患者需要特别小心。例如，前房角狭窄的患者发生闭角型青光眼的风险较高。服用某些精神病药物的患者，特别是三环类抗抑郁药或单胺氧化酶抑制剂，可能经历危险的药物相互作用。</p>
+<p>因此，散瞳滴剂的管理需要：</p>
+<ul>
+<li>仔细筛选患者的禁忌症</li>
+<li>适当的药物储存和处理</li>
+<li>应对不良反应的紧急协议</li>
+<li>眼科药物的专业培训</li>
+<li>管理处方药的合法权限</li>
+</ul>
+<p>这些要求使得散瞳成像不适合健康环境，在那里重点应放在安全、非侵入性评估上。非散瞳相机通过巧妙的光学和电子设计消除了这些风险和复杂性，同时保持成像能力。</p>
+</div>
+</div>
+<p>设计非散瞳操作在整个系统中引发了级联技术挑战。未扩大的瞳孔通常直径仅为2-4毫米，为照明和成像视网膜提供了更小的窗口。这一限制推动了对更复杂光学、更敏感成像传感器以及特别小心管理照明的需求。照明系统必须提供足够的照明以保证图像质量，同时保持患者舒适并避免触发瞳孔收缩从而进一步减少通道。</p>
+<p>解决方案通常涉及多个子系统的仔细协调。红外LED提供不可见的照明用于初始对准和聚焦，因为即使通过小瞳孔，这些波长下的视网膜也能被清晰查看。当一切正确对准后，短暂的可见光脉冲会在瞳孔收缩前捕捉实际图像。整个序列必须自动且几乎瞬时发生，以确保未经培训的操作员也能获得一致的结果。</p>
+<p>真正的便携性代表了另一个基本要求。与传统设置可能证明专用检查室合理不同，健康实践通常需要灵活性来决定如何以及在何处进行评估。这推动了对尺寸和重量的要求——整个系统必须足够轻（低于2.5千克）便于移动，且足够紧凑（任一维度低于300毫米）以适应标准桌子或桌面。这种便携性使实践能够最大化空间利用，甚至支持移动筛选服务。</p>
+<p>自动化在为非专业操作员设计时变得至关重要。传统眼底相机需要患者定位、焦点调整和曝光控制方面的丰富专业知识。现代系统必须自动处理这些技术方面，使用高级瞳孔跟踪进行对准，自动聚焦系统和智能曝光控制。语音指导帮助操作员和患者完成成像过程，无需广泛培训。</p>
+<p>光学系统必须平衡相互竞争的需求。虽然保持高图像质量仍然至关重要，但设计还必须适应不太理想的检查条件。视场角（通常为30-45度）必须为健康评估提供足够的视网膜覆盖，同时保持光学系统的紧凑性和可负担性。</p>
+<p>互联网连接在考虑健康实践的需求时从可选变为必需。系统必须无缝集成云服务以进行图像存储、分析和报告生成。这种连接还支持自动软件更新和远程支持功能，这对于在无需现场技术专长的情况下维护系统性能至关重要。</p>
+<p>成本管理影响设计的各个方面。虽然传统眼底相机可以证明整个系统中使用高端组件是合理的，但将这项技术引入健康实践需要对整个系统进行仔细优化。这意味着尽可能利用消费电子产品的进步（如手机行业的CMOS传感器），使用精密模塑而非研磨的光学组件，并在每个子系统中仔细平衡性能与成本。</p>
+<p>其结果是对眼底相机设计的根本不同方法——一种优先考虑健康环境中实用性的方法，同时保持有意义的健康评估所需的基本能力。这种转变使视网膜成像可供全新类别的从业者使用，支持日益增长的更全面、技术支持的健康护理趋势。</p>
+</section>
+<section id="opticare-ai相机" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="opticare-ai相机"><span class="header-section-number">3.4</span> Opticare AI相机</h2>
+<p>Opticare AI眼底相机（型号AI-FD16aF）通过具体的工程实现体现了这些现代设计原则：</p>
+<p>物理设计：</p>
+<ul>
+<li>尺寸：297 × 253 × 125毫米</li>
+<li>重量：2千克</li>
+<li>最小瞳孔直径：2.8毫米</li>
+<li>视场角：40度</li>
+</ul>
+<p>成像系统：</p>
+<ul>
+<li>1200万像素数字传感器，提供4000 × 3000像素分辨率</li>
+<li>中心视场分辨率：≥ 60线对/毫米</li>
+<li>中场分辨率：≥ 40线对/毫米</li>
+<li>外围分辨率：≥ 25线对/毫米</li>
+<li>屈光度调整范围：-15D至+15D（覆盖约95%的人口）</li>
+</ul>
+<p>照明：</p>
+<ul>
+<li>红外LED系统（770-930纳米）用于聚焦和对准</li>
+<li>白光LED闪光（4500-6700K色温）用于图像捕捉</li>
+<li>安全限制曝光时间（红外最大600秒，闪光20次曝光）</li>
+<li>符合ISO 15004-2:2007眼科仪器安全性标准</li>
+</ul>
+<p>连接性：</p>
+<ul>
+<li>USB 2.0/3.0接口用于数据传输和控制</li>
+<li>HDMI输出用于外部显示</li>
+<li>WiFi：双频（2.4/5 GHz），支持802.11b/g/n/ac</li>
+<li>4G蜂窝支持</li>
+<li>HTTPS安全数据传输</li>
+<li>JPEG图像存储，具备云备份功能</li>
+</ul>
+<p>操作参数：</p>
+<ul>
+<li>电源：100-240V交流，50/60 Hz，最大0.8A</li>
+<li>温度范围：+5°C至+40°C（运行），-40°C至+55°C（存储）</li>
+<li>湿度：10-90%无冷凝</li>
+<li>电磁兼容性：第1组B类设备</li>
+<li>安全等级：II类电气，带B型患者保护</li>
+</ul>
+<p>这些规格反映了为健康评估应用进行的仔细优化，在保持专业级成像能力的同时平衡了技术复杂性和实用性。</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-cheung_retinal_2014" class="csl-entry" role="listitem">
+Cheung, Carol Yim-lui, Yi-Ting Ong, M. Kamran Ikram, Christopher Chen, 和 Tien Yin Wong. 2014. <span>《Retinal <span>Microvasculature</span> in <span>Alzheimer</span>’s <span>Disease</span>》</span>. 编辑 Jack C. De La Torre. <em>Journal of Alzheimer’s Disease</em> 42 (s4): S339–52. <a href="https://doi.org/10.3233/JAD-141596">https://doi.org/10.3233/JAD-141596</a>.
+</div>
+<div id="ref-chua_ambient_2020" class="csl-entry" role="listitem">
+Chua, Sharon Y. L., Anthony P. Khawaja, Andrew D. Dick, James Morgan, Baljean Dhillon, Andrew J. Lotery, Nicholas G. Strouthidis, 等. 2020. <span>《Ambient <span>Air</span> <span>Pollution</span> <span>Associations</span> with <span>Retinal</span> <span>Morphology</span> in the <span>UK</span> <span>Biobank</span>》</span>. <em>Investigative Opthalmology &amp; Visual Science</em> 61 (5): 32. <a href="https://doi.org/10.1167/iovs.61.5.32">https://doi.org/10.1167/iovs.61.5.32</a>.
+</div>
+<div id="ref-hua_development_2022" class="csl-entry" role="listitem">
+Hua, Rong, Jianhao Xiong, Gail Li, Yidan Zhu, Zongyuan Ge, Yanjun Ma, Meng Fu, 等. 2022. <span>《Development and validation of a deep learning algorithm based on fundus photographs for estimating the <span>CAIDE</span> dementia risk score》</span>. <em>Age and Ageing</em> 51 (12): afac282. <a href="https://doi.org/10.1093/ageing/afac282">https://doi.org/10.1093/ageing/afac282</a>.
+</div>
+<div id="ref-kivipelto_risk_2006" class="csl-entry" role="listitem">
+Kivipelto, Miia, Tiia Ngandu, Tiina Laatikainen, Bengt Winblad, Hilkka Soininen, 和 Jaakko Tuomilehto. 2006. <span>《Risk score for the prediction of dementia risk in 20 years among middle aged people: a longitudinal, population-based study》</span>. <em>The Lancet Neurology</em> 5 (9): 735–41. <a href="https://doi.org/10.1016/S1474-4422(06)70537-3">https://doi.org/10.1016/S1474-4422(06)70537-3</a>.
+</div>
+<div id="ref-lin_application_2021" class="csl-entry" role="listitem">
+Lin, Duoru, Jianhao Xiong, Congxin Liu, Lanqin Zhao, Zhongwen Li, Shanshan Yu, Xiaohang Wu, 等. 2021. <span>《Application of <span>Comprehensive</span> <span>Artificial</span> intelligence <span>Retinal</span> <span>Expert</span> (<span>CARE</span>) system: a national real-world evidence study》</span>. <em>The Lancet Digital Health</em> 3 (8): e486–95. <a href="https://doi.org/10.1016/S2589-7500(21)00086-8">https://doi.org/10.1016/S2589-7500(21)00086-8</a>.
+</div>
+<div id="ref-ma_deep_2022" class="csl-entry" role="listitem">
+Ma, Yanjun, Jianhao Xiong, Yidan Zhu, Zongyuan Ge, Rong Hua, Meng Fu, Chenglong Li, 等. 2022. <span>《Deep learning algorithm using fundus photographs for 10-year risk assessment of ischemic cardiovascular diseases in <span>China</span>》</span>. <em>Science Bulletin</em> 67 (1): 17–20. <a href="https://doi.org/10.1016/j.scib.2021.08.016">https://doi.org/10.1016/j.scib.2021.08.016</a>.
+</div>
+<div id="ref-milea_artificial_2020" class="csl-entry" role="listitem">
+Milea, Dan, Raymond P. Najjar, Zhubo Jiang, Daniel Ting, Caroline Vasseneix, Xinxing Xu, Masoud Aghsaei Fard, 等. 2020. <span>《Artificial <span>Intelligence</span> to <span>Detect</span> <span>Papilledema</span> from <span>Ocular</span> <span>Fundus</span> <span>Photographs</span>》</span>. <em>New England Journal of Medicine</em> 382 (18): 1687–95. <a href="https://doi.org/10.1056/NEJMoa1917130">https://doi.org/10.1056/NEJMoa1917130</a>.
+</div>
+<div id="ref-mitani_detection_2019" class="csl-entry" role="listitem">
+Mitani, Akinori, Abigail Huang, Subhashini Venugopalan, Greg S. Corrado, Lily Peng, Dale R. Webster, Naama Hammel, Yun Liu, 和 Avinash V. Varadarajan. 2019. <span>《Detection of anaemia from retinal fundus images via deeplearning》</span>. <em>Nature Biomedical Engineering</em> 4 (1): 18–27. <a href="https://doi.org/10.1038/s41551-019-0487-z">https://doi.org/10.1038/s41551-019-0487-z</a>.
+</div>
+<div id="ref-nusinovici_application_2024" class="csl-entry" role="listitem">
+Nusinovici, Simon, Tyler Hyungtaek Rim, Hengtong Li, Marco Yu, Mihir Deshmukh, Ten Cheer Quek, Geunyoung Lee, 等. 2024. <span>《Application of a deep-learning marker for morbidity and mortality prediction derived from retinal photographs: a cohort development and validation study》</span>. <em>The Lancet Healthy Longevity</em>, 九月, 100593. <a href="https://doi.org/10.1016/S2666-7568(24)00089-8">https://doi.org/10.1016/S2666-7568(24)00089-8</a>.
+</div>
+<div id="ref-nusinovici_retinal_2022" class="csl-entry" role="listitem">
+Nusinovici, Simon, Tyler Hyungtaek Rim, Marco Yu, Geunyoung Lee, Yih-Chung Tham, Ning Cheung, Crystal Chun Yuen Chong, 等. 2022. <span>《Retinal photograph-based deep learning predicts biological age, and stratifies morbidity and mortality risk》</span>. <em>Age and Ageing</em> 51 (4): afac065. <a href="https://doi.org/10.1093/ageing/afac065">https://doi.org/10.1093/ageing/afac065</a>.
+</div>
+<div id="ref-tsukahara_is_2021" class="csl-entry" role="listitem">
+Tsukahara, Jason S., 和 Randall W. Engle. 2021. <span>《Is baseline pupil size related to cognitive ability? <span>Yes</span> (under proper lighting conditions)》</span>. <em>Cognition</em> 211 (六月): 104643. <a href="https://doi.org/10.1016/j.cognition.2021.104643">https://doi.org/10.1016/j.cognition.2021.104643</a>.
+</div>
+<div id="ref-wong_retinal_2002" class="csl-entry" role="listitem">
+Wong, Tien Yin. 2002. <span>《Retinal <span>Arteriolar</span> <span>Narrowing</span> and <span>Risk</span> of <span>Diabetes</span> <span>Mellitus</span> in <span>Middle</span>-aged <span>Persons</span>》</span>. <em>JAMA</em> 287 (19): 2528. <a href="https://doi.org/10.1001/jama.287.19.2528">https://doi.org/10.1001/jama.287.19.2528</a>.
+</div>
+<div id="ref-xia_generalizing_2024" class="csl-entry" role="listitem">
+Xia, Peng, Ming Hu, Feilong Tang, Wenxue Li, Wenhao Zheng, Lie Ju, Peibo Duan, Huaxiu Yao, 和 Zongyuan Ge. 2024. <span>《Generalizing to <span>Unseen</span> <span>Domains</span> in <span>Diabetic</span> <span>Retinopathy</span> with <span>Disentangled</span> <span>Representations</span>》</span>. arXiv. <a href="http://arxiv.org/abs/2406.06384">http://arxiv.org/abs/2406.06384</a>.
+</div>
+<div id="ref-zhao_foundation_2024" class="csl-entry" role="listitem">
+Zhao, Theodore, Yu Gu, Jianwei Yang, Naoto Usuyama, Ho Hin Lee, Sid Kiblawi, Tristan Naumann, 等. 2024. <span>《A foundation model for joint segmentation, detection and recognition of biomedical objects across nine modalities》</span>. <em>Nature Methods</em>, 十一月. <a href="https://doi.org/10.1038/s41592-024-02499-w">https://doi.org/10.1038/s41592-024-02499-w</a>.
+</div>
+<div id="ref-zhu_retinal_2023" class="csl-entry" role="listitem">
+Zhu, Zhuoting, Danli Shi, Peng Guankai, Zachary Tan, Xianwen Shang, Wenyi Hu, Huan Liao, 等. 2023. <span>《Retinal age gap as a predictive biomarker for mortality risk》</span>. <em>British Journal of Ophthalmology</em> 107 (4): 547–54. <a href="https://doi.org/10.1136/bjophthalmol-2021-319807">https://doi.org/10.1136/bjophthalmol-2021-319807</a>.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "已复制");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "已复制");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/opticareai\.github\.io\/eyes-on-health\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./2-Chapter-Science.zh.html" class="pagination-link" aria-label="科学基础：证据揭示了什么">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">科学基础：证据揭示了什么</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./4-Chapter-Reports.zh.html" class="pagination-link" aria-label="Opticare AI – 创新与健康的结合">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Opticare AI – 创新与健康的结合</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Copyright 2025 Opticare, Inc</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,43 @@
+project:
+  type: book
+  output-dir: docs-zh
+  render:
+    - index.zh.qmd
+    - 1-Chapter-Intro.zh.qmd
+    - 2-Chapter-Science.qmd
+    - 3-Chapter-RetinalTech.qmd
+    - 4-Chapter-Reports.qmd
+    - 5-Chapter-Wellness.qmd
+    - 6-Chapter-Faster.qmd
+    - 7-Chapter-Future.qmd
+    - 8-Chapter-Beyond.qmd
+    - 9-Chapter-Skepticism.qmd
+    - 10-Chapter-Final.qmd
+    - summary.qmd
+    - appendix.qmd
+    - references.qmd
+
+lang: zh
+
+book:
+  date: "3/23/2025"
+  chapters:
+    - index.zh.qmd
+    - 1-Chapter-Intro.zh.qmd
+    - 2-Chapter-Science.zh.qmd
+    - 3-Chapter-RetinalTech.zh.qmd
+    - 4-Chapter-Reports.zh.qmd
+    - 5-Chapter-Wellness.zh.qmd
+    - 6-Chapter-Faster.zh.qmd
+    - 7-Chapter-Future.zh.qmd
+    - 8-Chapter-Beyond.zh.qmd
+    - 9-Chapter-Skepticism.zh.qmd
+    - 10-Chapter-Final.zh.qmd
+    - summary.zh.qmd
+    - appendix.zh.qmd
+    - references.zh.qmd
+
+format:
+  pdf:
+    mainfont: "Noto Serif CJK SC"  # Supports Simplified Chinese
+    output-file: "Eyes-on-Health-zh"  # Custom name for Chinese PDF

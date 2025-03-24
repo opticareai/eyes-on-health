@@ -1,0 +1,20 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  chapters:
+      - index.qmd
+      - 1-Chapter-Intro.qmd
+      - 2-Chapter-Science.qmd
+      - 3-Chapter-RetinalTech.qmd
+      - 4-Chapter-Reports.qmd
+      - 5-Chapter-Wellness.qmd
+      - 6-Chapter-Faster.qmd
+      - 7-Chapter-Future.qmd
+      - 8-Chapter-Beyond.qmd
+      - 9-Chapter-Skepticism.qmd
+      - 10-Chapter-Final.qmd
+      - summary.qmd
+      - appendix.qmd
+      - references.qmd
