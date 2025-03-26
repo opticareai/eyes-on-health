@@ -1,5 +1,18 @@
 # Preface {.unnumbered}
 
+
+::: {.content-visible when-format="html"}
+
+::: {.callout-note title="Buy on Amazon"}
+
+Purchase a paperback version of this book:
+
+[Buy Now](https://amzn.to/41LfAFX)
+:::
+
+:::
+
+
 The human eye has long captivated medical professionals as a unique window into overall health. Through the delicate structures of the retina, we can observe intricate networks of blood vessels, neural tissue, and metabolic activity – all without a single incision or invasive procedure. This remarkable access point has made retinal imaging, particularly fundus photography, an increasingly valuable tool in health assessment and preventive care.
 
 The convergence of high-resolution imaging technology and artificial intelligence has revolutionized our ability to gather and interpret retinal data. What was once the exclusive domain of ophthalmologists has now become accessible to a broader range of health professionals, opening new possibilities for early detection and monitoring of various systemic conditions.
