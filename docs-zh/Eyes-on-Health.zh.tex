@@ -128,6 +128,8 @@
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \raggedbottom
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK SC}
 \makeatletter
 \@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
 \@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
@@ -251,7 +253,7 @@ AI相机系统。我们将研究将视网膜标志物与各种健康状况相关
 
 \pagebreak
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, colbacktitle=quarto-callout-caution-color!10!white, colback=white, toprule=.15mm, opacityback=0, left=2mm, titlerule=0mm, colframe=quarto-callout-caution-color-frame, bottomrule=.15mm, toptitle=1mm, bottomtitle=1mm, rightrule=.15mm, leftrule=.75mm, coltitle=black, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{免责声明}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-caution-color!10!white, breakable, bottomtitle=1mm, opacityback=0, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, left=2mm, colframe=quarto-callout-caution-color-frame, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{免责声明}, toptitle=1mm, toprule=.15mm, arc=.35mm, leftrule=.75mm]
 
 本书提供的信息仅供教育和参考之用。它不构成医疗建议、诊断或治疗。Opticare
 AI系统目前未获得FDA授权用于诊断或治疗任何疾病。在做出任何关于您的健康的决定或将新技术纳入您的实践之前，请始终咨询合格的医疗专业人士。作者和出版商对因使用或应用本书中包含的任何信息而直接或间接产生的任何责任概不负责。虽然我们已尽力确保所呈现信息的准确性，但医疗实践、法规和技术不断发展，读者应独立验证当前信息。对特定研究研究、技术和应用的引用仅提供背景，不应被视为对功效或结果的认可或保证。
@@ -589,7 +591,7 @@ AI系统是一种在数百万标记视网膜图像的庞大数据集上训练的
   \textbf{特征组合}：AI模型被训练为评估特征组合，就像临床医生那样，以得出最终的诊断或风险评估。这种方法利用了视网膜特征的冗余性，比仅依赖单一特征更稳健。
 \end{itemize}
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, colbacktitle=quarto-callout-note-color!10!white, colback=white, toprule=.15mm, opacityback=0, left=2mm, titlerule=0mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, toptitle=1mm, bottomtitle=1mm, rightrule=.15mm, leftrule=.75mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{了解过程}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, bottomtitle=1mm, opacityback=0, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, left=2mm, colframe=quarto-callout-note-color-frame, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{了解过程}, toptitle=1mm, toprule=.15mm, arc=.35mm, leftrule=.75mm]
 
 使用Opticare相机时，您应该记住以下几点：
 
@@ -797,7 +799,7 @@ al.~(2022a)}
 
 或许最为关键的是，现代眼底相机必须在无需瞳孔扩大的情况下运行（非散瞳操作），因为药物扩瞳的要求将严重限制其在健康环境中的实用性。传统眼底摄影通常依赖散瞳滴剂来扩大瞳孔，为成像提供更方便的通道，但这带来了显著的实际障碍------患者需要等待20-30分钟让瞳孔扩大，随后会经历数小时的光敏感和视力模糊，且无法自己开车回家。这些副作用使得扩瞳在常规健康筛查中不切实际，并将严重限制患者的接受度。
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, colbacktitle=quarto-callout-note-color!10!white, colback=white, toprule=.15mm, opacityback=0, left=2mm, titlerule=0mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, toptitle=1mm, bottomtitle=1mm, rightrule=.15mm, leftrule=.75mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{为什么非散瞳操作至关重要？}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, bottomtitle=1mm, opacityback=0, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, left=2mm, colframe=quarto-callout-note-color-frame, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{为什么非散瞳操作至关重要？}, toptitle=1mm, toprule=.15mm, arc=.35mm, leftrule=.75mm]
 
 瞳孔扩大（散瞳）传统上依赖于药物剂，如托吡卡胺、去氧肾上腺素或环戊托酸。这些药物通过刺激虹膜扩张肌（像去氧肾上腺素这样的α-肾上腺素能激动剂）或麻痹虹膜括约肌（像托吡卡胺这样的抗胆碱能药物）起作用。虽然这些药物能有效创建更大的成像窗口，但它们可能引发从暂时不适到严重医疗紧急情况的副作用。\newline{}
 
@@ -1016,7 +1018,7 @@ Opticare报告的视觉设计通过直观的风险分类系统优先考虑直观
 
 这种结构化方法允许从业者快速掌握关键见解，同时可以在需要时获取更深入的信息。标准化格式还便于随时间比较，使有效监控对健康干预的反应变化成为可能。
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, colbacktitle=quarto-callout-caution-color!10!white, colback=white, toprule=.15mm, opacityback=0, left=2mm, titlerule=0mm, colframe=quarto-callout-caution-color-frame, bottomrule=.15mm, toptitle=1mm, bottomtitle=1mm, rightrule=.15mm, leftrule=.75mm, coltitle=black, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{警告：不用于诊断}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-caution-color!10!white, breakable, bottomtitle=1mm, opacityback=0, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, left=2mm, colframe=quarto-callout-caution-color-frame, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{警告：不用于诊断}, toptitle=1mm, toprule=.15mm, arc=.35mm, leftrule=.75mm]
 
 我们必须反复强调：Opticare
 AI系统目前未经FDA授权诊断或治疗任何疾病。以下讨论指出了使用先进的AI驱动眼底摄影理论上可能进行的诊断类型，\textbf{但当前的Opticare
@@ -1520,7 +1522,7 @@ AI相机的便携性使其成为移动筛查服务的理想选择。许多诊所
 
 \section{案例研究}\label{ux6848ux4f8bux7814ux7a76}
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, colbacktitle=quarto-callout-note-color!10!white, colback=white, toprule=.15mm, opacityback=0, left=2mm, titlerule=0mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, toptitle=1mm, bottomtitle=1mm, rightrule=.15mm, leftrule=.75mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{案例研究1：综合健康中心}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, bottomtitle=1mm, opacityback=0, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, left=2mm, colframe=quarto-callout-note-color-frame, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{案例研究1：综合健康中心}, toptitle=1mm, toprule=.15mm, arc=.35mm, leftrule=.75mm]
 
 典型健康中心的方法专注于将视网膜成像与其他健康评估相结合，提供全面护理。
 
@@ -1554,7 +1556,7 @@ AI相机的便携性使其成为移动筛查服务的理想选择。许多诊所
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, colbacktitle=quarto-callout-note-color!10!white, colback=white, toprule=.15mm, opacityback=0, left=2mm, titlerule=0mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, toptitle=1mm, bottomtitle=1mm, rightrule=.15mm, leftrule=.75mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{案例研究2：企业健康计划}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, bottomtitle=1mm, opacityback=0, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, left=2mm, colframe=quarto-callout-note-color-frame, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{案例研究2：企业健康计划}, toptitle=1mm, toprule=.15mm, arc=.35mm, leftrule=.75mm]
 
 这个团队将Opticare AI相机整合到他们的企业健康计划中，服务于多个企业：
 
@@ -1653,7 +1655,7 @@ AI相机的便携性使其成为移动筛查服务的理想选择。许多诊所
 
 向患者介绍视网膜成像服务时，从业者应强调其非侵入性方法和快速结果交付------通常在几分钟内可用。讨论应将视网膜健康模式与整体健康联系起来，同时强调早期检测的预防性益处。从业者可以解释成像过程如何与其现有的护理协议无缝整合，增强而非干扰已建立的治疗关系。这种解释应基于健康促进而非医疗诊断，帮助患者理解技术在其更广泛健康旅程中的作用。
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, colbacktitle=quarto-callout-note-color!10!white, colback=white, toprule=.15mm, opacityback=0, left=2mm, titlerule=0mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, toptitle=1mm, bottomtitle=1mm, rightrule=.15mm, leftrule=.75mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{示例介绍脚本}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, bottomtitle=1mm, opacityback=0, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, left=2mm, colframe=quarto-callout-note-color-frame, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{示例介绍脚本}, toptitle=1mm, toprule=.15mm, arc=.35mm, leftrule=.75mm]
 
 ``作为我们致力于提供全面健康护理的一部分，我们使用先进的视网膜成像技术收集有关您整体健康状况的重要信息。这种快速、非侵入性的扫描只需几分钟，可以提供有价值的见解，帮助指导您的健康旅程。''
 
@@ -2964,7 +2966,7 @@ AI相机结合了尖端技术与用户友好的操作，为快速、非侵入性
 
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, colbacktitle=quarto-callout-important-color!10!white, colback=white, toprule=.15mm, opacityback=0, left=2mm, titlerule=0mm, colframe=quarto-callout-important-color-frame, bottomrule=.15mm, toptitle=1mm, bottomtitle=1mm, rightrule=.15mm, leftrule=.75mm, coltitle=black, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{保存钥匙！}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-important-color!10!white, breakable, bottomtitle=1mm, opacityback=0, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, left=2mm, colframe=quarto-callout-important-color-frame, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{保存钥匙！}, toptitle=1mm, toprule=.15mm, arc=.35mm, leftrule=.75mm]
 
 您在打包相机进行运输时将需要这把钥匙，因此请将其放在不会丢失的地方。
 
@@ -2984,7 +2986,7 @@ AI相机结合了尖端技术与用户友好的操作，为快速、非侵入性
 
 \textbf{初始化}：等待相机初始化并提示您进行下一步操作。
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, breakable, colbacktitle=quarto-callout-note-color!10!white, colback=white, toprule=.15mm, opacityback=0, left=2mm, titlerule=0mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, toptitle=1mm, bottomtitle=1mm, rightrule=.15mm, leftrule=.75mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{注记}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, rightrule=.15mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, bottomtitle=1mm, opacityback=0, bottomrule=.15mm, titlerule=0mm, opacitybacktitle=0.6, left=2mm, colframe=quarto-callout-note-color-frame, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{注记}, toptitle=1mm, toprule=.15mm, arc=.35mm, leftrule=.75mm]
 
 相机已预配置您的Wi-Fi网络。您应该会听到消息：``已连接到网络''，确认它已连接到您的Wi-Fi。请参阅电子邮件以了解设备配置的Wi-Fi信息。
 

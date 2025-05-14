@@ -41,3 +41,7 @@ format:
   pdf:
     mainfont: "Noto Serif CJK SC"  # Supports Simplified Chinese
     output-file: "Eyes-on-Health-zh"  # Custom name for Chinese PDF
+    header-includes:
+      - \raggedbottom
+      - \usepackage{xeCJK}
+      - \setCJKmainfont{Noto Serif CJK SC}
